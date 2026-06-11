@@ -1,0 +1,1695 @@
+--- BAR 2 (t=2.00s) ---
+  beat  0.00  C#4  (61)  dur=0.56s  vel=0.18
+  beat  0.43  E4   (64)  dur=0.31s  vel=0.20
+  beat  0.77  A4   (69)  dur=0.18s  vel=0.18
+  beat  1.07  C#5  (73)  dur=0.17s  vel=0.20
+  beat  1.42  E5   (76)  dur=0.13s  vel=0.25
+  beat  1.65  F#5  (78)  dur=0.16s  vel=0.33
+  beat  1.95  G#5  (80)  dur=0.36s  vel=0.35
+  beat  2.24  D#5  (75)  dur=0.20s  vel=0.34
+  beat  2.54  B4   (71)  dur=0.09s  vel=0.43
+  beat  2.77  G#4  (68)  dur=0.14s  vel=0.28
+  beat  3.07  D#4  (63)  dur=0.14s  vel=0.34
+  beat  3.33  B3   (59)  dur=0.08s  vel=0.32
+  beat  3.60  A3   (57)  dur=0.44s  vel=0.28
+  beat  3.94  C#4  (61)  dur=0.35s  vel=0.33
+
+--- BAR 3 (t=4.00s) ---
+  beat  0.21  F#4  (66)  dur=0.14s  vel=0.27
+  beat  0.50  A4   (69)  dur=0.14s  vel=0.26
+  beat  0.73  C#5  (73)  dur=0.14s  vel=0.33
+  beat  1.04  D#5  (75)  dur=0.17s  vel=0.29
+  beat  1.40  E5   (76)  dur=0.29s  vel=0.28
+  beat  1.70  B4   (71)  dur=0.24s  vel=0.24
+  beat  1.91  G#4  (68)  dur=0.18s  vel=0.20
+  beat  2.23  E4   (64)  dur=0.14s  vel=0.19
+  beat  2.58  B3   (59)  dur=0.08s  vel=0.15
+  beat  2.83  G#3  (56)  dur=0.11s  vel=0.24
+  beat  3.18  F#3  (54)  dur=0.92s  vel=0.32
+  beat  3.54  A3   (57)  dur=0.36s  vel=0.27
+  beat  3.79  C#4  (61)  dur=0.44s  vel=0.26
+
+--- BAR 4 (t=6.00s) ---
+  beat  0.08  C#5  (73)  dur=0.59s  vel=0.43
+  beat  0.43  F#4  (66)  dur=0.20s  vel=0.18
+  beat  0.78  A4   (69)  dur=0.08s  vel=0.20
+  beat  1.14  F#5  (78)  dur=0.59s  vel=0.41
+  beat  1.19  E3   (52)  dur=0.94s  vel=0.28
+  beat  1.56  A3   (57)  dur=0.31s  vel=0.27
+  beat  1.89  C#4  (61)  dur=0.28s  vel=0.22
+  beat  2.26  C#5  (73)  dur=0.50s  vel=0.35
+  beat  2.54  F#4  (66)  dur=0.17s  vel=0.17
+  beat  2.88  A4   (69)  dur=0.11s  vel=0.15
+  beat  3.07  D#3  (51)  dur=0.88s  vel=0.40
+  beat  3.48  A3   (57)  dur=0.21s  vel=0.31
+  beat  3.71  C#4  (61)  dur=0.48s  vel=0.34
+  beat  3.96  C#5  (73)  dur=0.57s  vel=0.57
+
+--- BAR 5 (t=8.00s) ---
+  beat  0.27  F#4  (66)  dur=0.19s  vel=0.35
+  beat  0.57  A4   (69)  dur=0.09s  vel=0.31
+  beat  0.85  F#5  (78)  dur=0.74s  vel=0.57
+  beat  0.86  C#3  (49)  dur=0.30s  vel=0.32
+  beat  1.24  A3   (57)  dur=0.15s  vel=0.30
+  beat  1.61  E4   (64)  dur=0.10s  vel=0.33
+  beat  2.03  A5   (81)  dur=0.85s  vel=0.51
+  beat  2.41  A4   (69)  dur=0.18s  vel=0.14
+  beat  2.76  C#5  (73)  dur=0.08s  vel=0.24
+  beat  3.10  B2   (47)  dur=0.33s  vel=0.33
+  beat  3.50  F#3  (54)  dur=0.18s  vel=0.43
+  beat  3.93  A3   (57)  dur=0.14s  vel=0.39
+
+--- BAR 6 (t=10.00s) ---
+  beat  0.29  A5   (81)  dur=1.89s  vel=0.64
+  beat  0.31  C#4  (61)  dur=0.22s  vel=0.40
+  beat  0.71  D#4  (63)  dur=0.21s  vel=0.39
+  beat  1.10  F#4  (66)  dur=0.19s  vel=0.28
+  beat  1.55  A4   (69)  dur=0.21s  vel=0.28
+  beat  1.99  C#5  (73)  dur=0.28s  vel=0.36
+  beat  2.57  D#5  (75)  dur=0.27s  vel=0.34
+  beat  3.16  C#5  (73)  dur=0.38s  vel=0.21
+  beat  3.95  G#5  (80)  dur=0.62s  vel=0.31
+  beat  3.97  B4   (71)  dur=0.27s  vel=0.21
+
+--- BAR 7 (t=12.00s) ---
+  beat  1.00  F#5  (78)  dur=0.86s  vel=0.27
+  beat  1.01  A4   (69)  dur=0.17s  vel=0.08
+  beat  2.52  E2   (40)  dur=0.53s  vel=0.33
+  beat  3.20  B2   (47)  dur=0.24s  vel=0.30
+  beat  3.74  E5   (76)  dur=0.30s  vel=0.37
+  beat  3.79  E3   (52)  dur=0.18s  vel=0.32
+
+--- BAR 8 (t=14.00s) ---
+  beat  0.16  F#5  (78)  dur=0.19s  vel=0.49
+  beat  0.25  G#3  (56)  dur=0.24s  vel=0.24
+  beat  0.46  C#5  (73)  dur=0.20s  vel=0.46
+  beat  0.76  E5   (76)  dur=0.17s  vel=0.52
+  beat  0.81  B3   (59)  dur=0.16s  vel=0.26
+  beat  1.05  B4   (71)  dur=0.12s  vel=0.52
+  beat  1.19  G#3  (56)  dur=0.07s  vel=0.33
+  beat  1.31  C#5  (73)  dur=0.17s  vel=0.52
+  beat  1.58  G#4  (68)  dur=0.17s  vel=0.49
+  beat  1.66  E3   (52)  dur=0.16s  vel=0.24
+  beat  1.87  B4   (71)  dur=0.14s  vel=0.65
+  beat  2.04  B2   (47)  dur=0.17s  vel=0.27
+  beat  2.14  F#4  (66)  dur=0.17s  vel=0.46
+  beat  2.41  G#4  (68)  dur=0.16s  vel=0.54
+  beat  2.45  E2   (40)  dur=0.36s  vel=0.35
+  beat  2.71  E4   (64)  dur=0.15s  vel=0.53
+  beat  2.87  C#3  (49)  dur=0.22s  vel=0.25
+  beat  2.95  G#4  (68)  dur=0.14s  vel=0.39
+  beat  3.24  D#4  (63)  dur=1.23s  vel=0.54
+  beat  3.33  E3   (52)  dur=0.09s  vel=0.31
+  beat  3.71  G#3  (56)  dur=0.15s  vel=0.19
+
+--- BAR 9 (t=16.00s) ---
+  beat  0.17  C#4  (61)  dur=0.17s  vel=0.24
+  beat  0.70  G#3  (56)  dur=0.11s  vel=0.25
+  beat  1.23  C#4  (61)  dur=0.53s  vel=0.41
+  beat  1.36  E3   (52)  dur=0.09s  vel=0.13
+  beat  1.72  C#3  (49)  dur=0.13s  vel=0.19
+  beat  2.24  E2   (40)  dur=0.41s  vel=0.37
+  beat  2.24  B3   (59)  dur=0.22s  vel=0.32
+  beat  2.85  B2   (47)  dur=0.17s  vel=0.17
+  beat  3.38  E5   (76)  dur=0.25s  vel=0.34
+  beat  3.47  E3   (52)  dur=0.13s  vel=0.13
+  beat  3.79  F#5  (78)  dur=0.15s  vel=0.42
+  beat  3.88  G#3  (56)  dur=0.25s  vel=0.17
+
+--- BAR 10 (t=18.00s) ---
+  beat  0.07  C#5  (73)  dur=0.18s  vel=0.41
+  beat  0.39  E5   (76)  dur=0.16s  vel=0.50
+  beat  0.50  B3   (59)  dur=0.11s  vel=0.13
+  beat  0.67  B4   (71)  dur=0.08s  vel=0.54
+  beat  0.86  G#3  (56)  dur=0.07s  vel=0.25
+  beat  0.93  C#5  (73)  dur=0.16s  vel=0.52
+  beat  1.22  G#4  (68)  dur=0.16s  vel=0.46
+  beat  1.31  E3   (52)  dur=0.13s  vel=0.21
+  beat  1.48  B4   (71)  dur=0.14s  vel=0.60
+  beat  1.69  B2   (47)  dur=0.17s  vel=0.14
+  beat  1.79  F#4  (66)  dur=0.16s  vel=0.46
+  beat  2.07  G#4  (68)  dur=0.14s  vel=0.48
+  beat  2.10  E2   (40)  dur=0.38s  vel=0.32
+  beat  2.37  E4   (64)  dur=0.15s  vel=0.45
+  beat  2.51  C#3  (49)  dur=0.26s  vel=0.23
+  beat  2.64  G#4  (68)  dur=0.16s  vel=0.37
+  beat  2.93  D#4  (63)  dur=1.21s  vel=0.51
+  beat  3.06  E3   (52)  dur=0.07s  vel=0.30
+  beat  3.40  G#3  (56)  dur=0.22s  vel=0.28
+  beat  3.86  C#4  (61)  dur=0.20s  vel=0.30
+
+--- BAR 11 (t=20.00s) ---
+  beat  0.44  G#3  (56)  dur=0.21s  vel=0.27
+  beat  1.04  C#4  (61)  dur=0.46s  vel=0.40
+  beat  1.07  E3   (52)  dur=0.19s  vel=0.25
+  beat  1.51  C#3  (49)  dur=0.14s  vel=0.27
+  beat  1.90  B3   (59)  dur=0.23s  vel=0.46
+  beat  1.96  F#2  (42)  dur=0.59s  vel=0.20
+  beat  2.25  A3   (57)  dur=0.22s  vel=0.44
+  beat  2.42  C#3  (49)  dur=0.37s  vel=0.29
+  beat  2.60  B3   (59)  dur=0.21s  vel=0.40
+  beat  3.00  E3   (52)  dur=0.24s  vel=0.29
+  beat  3.01  C#4  (61)  dur=0.78s  vel=0.41
+  beat  3.48  F#3  (54)  dur=0.21s  vel=0.34
+  beat  3.98  A3   (57)  dur=0.18s  vel=0.24
+
+--- BAR 12 (t=22.00s) ---
+  beat  0.46  E4   (64)  dur=0.25s  vel=0.39
+  beat  0.47  F#3  (54)  dur=0.08s  vel=0.25
+  beat  0.85  D#4  (63)  dur=0.25s  vel=0.54
+  beat  0.93  E3   (52)  dur=0.13s  vel=0.28
+  beat  1.27  C#3  (49)  dur=0.08s  vel=0.31
+  beat  1.31  E4   (64)  dur=0.27s  vel=0.58
+  beat  1.73  G#2  (44)  dur=0.37s  vel=0.31
+  beat  1.76  C#4  (61)  dur=0.24s  vel=0.53
+  beat  2.17  C#3  (49)  dur=0.17s  vel=0.27
+  beat  2.60  G#4  (68)  dur=1.00s  vel=0.51
+  beat  2.70  E3   (52)  dur=0.08s  vel=0.19
+  beat  3.05  G#3  (56)  dur=0.13s  vel=0.21
+  beat  3.50  B3   (59)  dur=0.18s  vel=0.21
+  beat  3.92  G#3  (56)  dur=0.08s  vel=0.31
+
+--- BAR 13 (t=24.00s) ---
+  beat  0.36  E3   (52)  dur=0.07s  vel=0.32
+  beat  0.40  E4   (64)  dur=0.23s  vel=0.43
+  beat  0.77  C#3  (49)  dur=0.13s  vel=0.33
+  beat  1.17  D#4  (63)  dur=0.17s  vel=0.49
+  beat  1.20  A2   (45)  dur=0.59s  vel=0.28
+  beat  1.46  C#4  (61)  dur=0.19s  vel=0.49
+  beat  1.68  E3   (52)  dur=0.41s  vel=0.33
+  beat  1.75  D#4  (63)  dur=0.17s  vel=0.46
+  beat  2.08  F#3  (54)  dur=0.23s  vel=0.42
+  beat  2.11  E4   (64)  dur=0.65s  vel=0.51
+  beat  2.52  A3   (57)  dur=0.20s  vel=0.28
+  beat  2.92  C#4  (61)  dur=0.15s  vel=0.40
+  beat  3.35  G#4  (68)  dur=0.27s  vel=0.52
+  beat  3.40  A3   (57)  dur=0.20s  vel=0.33
+  beat  3.79  F#4  (66)  dur=0.26s  vel=0.50
+  beat  3.83  F#3  (54)  dur=0.17s  vel=0.38
+
+--- BAR 14 (t=26.00s) ---
+  beat  0.17  G#4  (68)  dur=0.20s  vel=0.53
+  beat  0.23  E3   (52)  dur=0.13s  vel=0.39
+  beat  0.55  E4   (64)  dur=0.26s  vel=0.55
+  beat  0.59  A#2  (46)  dur=0.30s  vel=0.33
+  beat  1.02  E3   (52)  dur=0.20s  vel=0.48
+  beat  1.35  G#3  (56)  dur=0.21s  vel=0.38
+  beat  1.38  C#5  (73)  dur=0.87s  vel=0.53
+  beat  1.71  C#4  (61)  dur=0.21s  vel=0.33
+  beat  2.26  C#3  (49)  dur=0.38s  vel=0.38
+  beat  2.70  F#3  (54)  dur=0.22s  vel=0.49
+  beat  3.05  A#4  (70)  dur=0.20s  vel=0.47
+  beat  3.06  A#3  (58)  dur=0.17s  vel=0.34
+  beat  3.39  C#5  (73)  dur=0.18s  vel=0.50
+  beat  3.46  E4   (64)  dur=0.08s  vel=0.49
+  beat  3.64  A#4  (70)  dur=0.18s  vel=0.46
+  beat  3.89  E3   (52)  dur=0.24s  vel=0.47
+  beat  3.95  G#4  (68)  dur=0.28s  vel=0.59
+
+--- BAR 15 (t=28.00s) ---
+  beat  0.33  A#3  (58)  dur=0.20s  vel=0.31
+  beat  0.74  C#4  (61)  dur=0.10s  vel=0.38
+  beat  0.76  E5   (76)  dur=0.77s  vel=0.67
+  beat  1.13  G#4  (68)  dur=0.11s  vel=0.31
+  beat  1.54  F#3  (54)  dur=0.26s  vel=0.54
+  beat  1.96  C#4  (61)  dur=0.19s  vel=0.52
+  beat  2.27  C#5  (73)  dur=0.19s  vel=0.61
+  beat  2.34  E4   (64)  dur=0.08s  vel=0.44
+  beat  2.60  E5   (76)  dur=0.16s  vel=0.61
+  beat  2.69  A#4  (70)  dur=0.17s  vel=0.38
+  beat  2.90  C#5  (73)  dur=0.22s  vel=0.61
+  beat  3.20  G#5  (80)  dur=0.69s  vel=0.66
+  beat  3.21  A#3  (58)  dur=0.33s  vel=0.30
+  beat  3.66  E4   (64)  dur=0.21s  vel=0.39
+
+--- BAR 16 (t=30.00s) ---
+  beat  0.07  G#4  (68)  dur=0.11s  vel=0.35
+  beat  0.43  F#5  (78)  dur=0.29s  vel=0.65
+  beat  0.45  C#5  (73)  dur=0.15s  vel=0.36
+  beat  0.85  G#5  (80)  dur=0.68s  vel=0.62
+  beat  0.88  C#4  (61)  dur=0.29s  vel=0.38
+  beat  1.28  F#4  (66)  dur=0.21s  vel=0.32
+  beat  1.65  A#4  (70)  dur=0.08s  vel=0.35
+  beat  2.05  F#5  (78)  dur=0.38s  vel=0.55
+  beat  2.06  E5   (76)  dur=0.05s  vel=0.37
+  beat  2.63  G#5  (80)  dur=0.78s  vel=0.53
+  beat  2.65  A#3  (58)  dur=0.31s  vel=0.24
+  beat  3.08  E4   (64)  dur=0.21s  vel=0.30
+  beat  3.58  G#4  (68)  dur=0.17s  vel=0.21
+
+--- BAR 17 (t=32.00s) ---
+  beat  0.04  C#5  (73)  dur=0.19s  vel=0.20
+  beat  0.07  F#5  (78)  dur=0.38s  vel=0.42
+  beat  0.73  G#5  (80)  dur=0.49s  vel=0.41
+  beat  0.80  C#4  (61)  dur=0.69s  vel=0.19
+  beat  1.52  F#5  (78)  dur=1.02s  vel=0.31
+  beat  1.58  F#4  (66)  dur=0.42s  vel=0.13
+  beat  2.31  A#4  (70)  dur=0.18s  vel=0.13
+  beat  3.22  G#5  (80)  dur=0.87s  vel=0.32
+  beat  3.25  E5   (76)  dur=0.13s  vel=0.12
+
+--- BAR 18 (t=34.00s) ---
+  beat  0.59  C#4  (61)  dur=0.60s  vel=0.14
+  beat  0.60  A5   (81)  dur=1.17s  vel=0.39
+  beat  1.17  E4   (64)  dur=0.29s  vel=0.21
+  beat  1.52  A4   (69)  dur=0.16s  vel=0.20
+  beat  1.90  C#5  (73)  dur=0.16s  vel=0.19
+  beat  2.25  E5   (76)  dur=0.14s  vel=0.24
+  beat  2.51  F#5  (78)  dur=0.15s  vel=0.32
+  beat  2.81  G#5  (80)  dur=0.97s  vel=0.50
+  beat  3.16  D#5  (75)  dur=0.11s  vel=0.29
+  beat  3.46  B4   (71)  dur=0.17s  vel=0.22
+  beat  3.65  G#4  (68)  dur=0.14s  vel=0.26
+  beat  3.98  D#4  (63)  dur=0.16s  vel=0.28
+
+--- BAR 19 (t=36.00s) ---
+  beat  0.27  B3   (59)  dur=0.15s  vel=0.28
+  beat  0.55  F#5  (78)  dur=1.01s  vel=0.51
+  beat  0.56  A3   (57)  dur=0.39s  vel=0.17
+  beat  0.90  C#4  (61)  dur=0.40s  vel=0.27
+  beat  1.17  F#4  (66)  dur=0.14s  vel=0.18
+  beat  1.48  A4   (69)  dur=0.15s  vel=0.19
+  beat  1.78  C#5  (73)  dur=0.13s  vel=0.23
+  beat  2.08  D#5  (75)  dur=0.07s  vel=0.27
+  beat  2.43  E5   (76)  dur=0.64s  vel=0.34
+  beat  2.78  B4   (71)  dur=0.36s  vel=0.20
+  beat  3.03  G#4  (68)  dur=0.23s  vel=0.14
+  beat  3.35  E4   (64)  dur=0.12s  vel=0.20
+  beat  3.71  B3   (59)  dur=0.13s  vel=0.05
+  beat  3.96  G#3  (56)  dur=0.09s  vel=0.24
+
+--- BAR 20 (t=38.00s) ---
+  beat  0.48  D#5  (75)  dur=1.04s  vel=0.44
+  beat  0.57  G3   (55)  dur=0.26s  vel=0.31
+  beat  0.91  C#4  (61)  dur=0.18s  vel=0.28
+  beat  1.21  D#4  (63)  dur=0.07s  vel=0.32
+  beat  1.47  A#4  (70)  dur=0.19s  vel=0.35
+  beat  1.80  D#4  (63)  dur=0.16s  vel=0.38
+  beat  2.04  C#4  (61)  dur=0.08s  vel=0.28
+  beat  2.30  G#3  (56)  dur=0.37s  vel=0.27
+  beat  2.31  E5   (76)  dur=0.56s  vel=0.59
+  beat  2.66  C#4  (61)  dur=0.21s  vel=0.35
+  beat  3.02  E4   (64)  dur=0.07s  vel=0.37
+  beat  3.20  G#5  (80)  dur=0.36s  vel=0.65
+  beat  3.40  B4   (71)  dur=0.09s  vel=0.35
+  beat  3.73  E4   (64)  dur=0.09s  vel=0.36
+  beat  3.77  B5   (83)  dur=0.42s  vel=0.79
+
+--- BAR 21 (t=40.00s) ---
+  beat  0.04  C#4  (61)  dur=0.10s  vel=0.24
+  beat  0.31  G3   (55)  dur=0.37s  vel=0.31
+  beat  0.51  D#5  (75)  dur=1.43s  vel=0.52
+  beat  0.92  C#4  (61)  dur=0.20s  vel=0.31
+  beat  1.28  D#4  (63)  dur=0.08s  vel=0.31
+  beat  1.59  A#4  (70)  dur=0.11s  vel=0.28
+  beat  1.94  D#4  (63)  dur=0.08s  vel=0.34
+  beat  2.16  C#4  (61)  dur=0.07s  vel=0.18
+  beat  2.70  E3   (52)  dur=0.36s  vel=0.45
+  beat  3.16  A3   (57)  dur=0.18s  vel=0.28
+  beat  3.26  C#5  (73)  dur=0.36s  vel=0.49
+  beat  3.48  C#4  (61)  dur=0.08s  vel=0.30
+  beat  3.80  G#4  (68)  dur=0.12s  vel=0.26
+  beat  3.83  E5   (76)  dur=0.32s  vel=0.52
+
+--- BAR 22 (t=42.00s) ---
+  beat  0.19  C#4  (61)  dur=0.11s  vel=0.36
+  beat  0.35  G#5  (80)  dur=0.27s  vel=0.43
+  beat  0.55  A3   (57)  dur=0.10s  vel=0.07
+  beat  0.83  B4   (71)  dur=1.42s  vel=0.51
+  beat  0.85  D#3  (51)  dur=0.35s  vel=0.24
+  beat  1.22  A3   (57)  dur=0.16s  vel=0.34
+  beat  1.56  B3   (59)  dur=0.08s  vel=0.21
+  beat  1.83  F#4  (66)  dur=0.09s  vel=0.26
+  beat  2.17  B3   (59)  dur=0.14s  vel=0.17
+  beat  2.42  A3   (57)  dur=0.06s  vel=0.26
+  beat  2.99  C#3  (49)  dur=1.09s  vel=0.34
+  beat  3.48  F#3  (54)  dur=0.33s  vel=0.28
+  beat  3.57  A4   (69)  dur=0.58s  vel=0.28
+  beat  3.86  A3   (57)  dur=0.13s  vel=0.17
+
+--- BAR 23 (t=44.00s) ---
+  beat  0.11  C#5  (73)  dur=0.31s  vel=0.37
+  beat  0.19  E4   (64)  dur=0.20s  vel=0.30
+  beat  0.64  A3   (57)  dur=0.11s  vel=0.23
+  beat  0.73  E5   (76)  dur=0.47s  vel=0.28
+  beat  1.00  F#3  (54)  dur=0.08s  vel=0.36
+  beat  1.47  G#4  (68)  dur=0.94s  vel=0.25
+  beat  1.53  C3   (48)  dur=0.32s  vel=0.27
+  beat  1.98  F#3  (54)  dur=0.21s  vel=0.30
+  beat  2.31  G#3  (56)  dur=0.09s  vel=0.31
+  beat  2.57  D#4  (63)  dur=0.15s  vel=0.35
+  beat  2.94  G#3  (56)  dur=0.13s  vel=0.42
+  beat  3.21  F#3  (54)  dur=0.11s  vel=0.40
+  beat  3.49  C#3  (49)  dur=0.52s  vel=0.42
+  beat  3.85  A4   (69)  dur=0.26s  vel=0.46
+  beat  3.94  F#3  (54)  dur=0.23s  vel=0.32
+
+--- BAR 24 (t=46.00s) ---
+  beat  0.31  C#5  (73)  dur=0.28s  vel=0.57
+  beat  0.40  A3   (57)  dur=0.12s  vel=0.24
+  beat  0.77  E5   (76)  dur=0.25s  vel=0.56
+  beat  0.83  E4   (64)  dur=0.08s  vel=0.29
+  beat  1.20  G#5  (80)  dur=0.26s  vel=0.48
+  beat  1.28  A3   (57)  dur=0.18s  vel=0.15
+  beat  1.65  F#5  (78)  dur=0.35s  vel=0.44
+  beat  1.69  F#3  (54)  dur=0.09s  vel=0.16
+  beat  2.21  D#5  (75)  dur=1.01s  vel=0.36
+  beat  2.25  C3   (48)  dur=0.33s  vel=0.23
+  beat  2.71  F#3  (54)  dur=0.23s  vel=0.30
+  beat  3.16  G#3  (56)  dur=0.09s  vel=0.22
+  beat  3.58  D#4  (63)  dur=0.16s  vel=0.23
+  beat  3.73  G#4  (68)  dur=0.56s  vel=0.24
+
+--- BAR 25 (t=48.00s) ---
+  beat  0.10  G#3  (56)  dur=0.15s  vel=0.25
+  beat  0.45  F#3  (54)  dur=0.15s  vel=0.28
+  beat  0.81  B2   (47)  dur=0.23s  vel=0.24
+  beat  1.24  F#3  (54)  dur=0.18s  vel=0.38
+  beat  1.35  F#4  (66)  dur=0.36s  vel=0.36
+  beat  1.58  A3   (57)  dur=0.14s  vel=0.25
+  beat  1.91  A4   (69)  dur=0.35s  vel=0.50
+  beat  2.01  D4   (62)  dur=0.09s  vel=0.28
+  beat  2.38  A3   (57)  dur=0.08s  vel=0.13
+  beat  2.48  C#5  (73)  dur=0.33s  vel=0.43
+  beat  2.56  F#3  (54)  dur=0.05s  vel=0.45
+  beat  3.05  B2   (47)  dur=0.29s  vel=0.30
+  beat  3.06  E4   (64)  dur=0.91s  vel=0.51
+  beat  3.47  E3   (52)  dur=0.09s  vel=0.35
+  beat  3.72  G#3  (56)  dur=0.15s  vel=0.23
+
+--- BAR 26 (t=50.00s) ---
+  beat  0.14  D4   (62)  dur=0.08s  vel=0.29
+  beat  0.46  G#3  (56)  dur=0.08s  vel=0.28
+  beat  0.76  E3   (52)  dur=0.09s  vel=0.25
+  beat  1.07  B2   (47)  dur=0.29s  vel=0.31
+  beat  1.48  F#4  (66)  dur=0.27s  vel=0.39
+  beat  1.54  F#3  (54)  dur=0.23s  vel=0.34
+  beat  1.92  A4   (69)  dur=0.22s  vel=0.46
+  beat  1.98  A3   (57)  dur=0.10s  vel=0.28
+  beat  2.30  C#5  (73)  dur=0.23s  vel=0.52
+  beat  2.36  D4   (62)  dur=0.08s  vel=0.34
+  beat  2.67  E5   (76)  dur=0.20s  vel=0.54
+  beat  2.73  A3   (57)  dur=0.08s  vel=0.16
+  beat  2.93  F#3  (54)  dur=0.05s  vel=0.44
+  beat  2.98  D5   (74)  dur=0.18s  vel=0.61
+  beat  3.31  G#4  (68)  dur=0.57s  vel=0.57
+  beat  3.39  B2   (47)  dur=0.22s  vel=0.31
+  beat  3.63  E3   (52)  dur=0.16s  vel=0.32
+  beat  3.90  G#3  (56)  dur=0.16s  vel=0.27
+
+--- BAR 27 (t=52.00s) ---
+  beat  0.22  F#4  (66)  dur=1.17s  vel=0.49
+  beat  0.34  D4   (62)  dur=0.08s  vel=0.17
+  beat  0.59  G#3  (56)  dur=0.08s  vel=0.22
+  beat  0.82  E3   (52)  dur=0.07s  vel=0.28
+  beat  1.26  E2   (40)  dur=0.28s  vel=0.46
+  beat  1.67  B2   (47)  dur=0.10s  vel=0.32
+  beat  2.03  E3   (52)  dur=0.11s  vel=0.34
+  beat  2.35  F#3  (54)  dur=0.22s  vel=0.40
+  beat  2.44  D4   (62)  dur=0.76s  vel=0.53
+  beat  2.76  G#3  (56)  dur=0.09s  vel=0.28
+  beat  3.22  B3   (59)  dur=0.06s  vel=0.25
+  beat  3.81  A1   (33)  dur=3.34s  vel=0.37
+  beat  3.83  C#4  (61)  dur=2.41s  vel=0.46
+
+--- BAR 28 (t=54.00s) ---
+  beat  0.44  A2   (45)  dur=3.20s  vel=0.24
+  beat  0.82  E3   (52)  dur=0.18s  vel=0.40
+  beat  1.19  G3   (55)  dur=0.18s  vel=0.36
+  beat  1.50  A3   (57)  dur=0.10s  vel=0.29
+  beat  1.77  B3   (59)  dur=0.16s  vel=0.41
+  beat  2.04  A3   (57)  dur=0.16s  vel=0.32
+  beat  2.33  E3   (52)  dur=0.15s  vel=0.43
+  beat  2.65  G3   (55)  dur=0.14s  vel=0.33
+  beat  2.90  A3   (57)  dur=0.15s  vel=0.35
+  beat  3.19  B3   (59)  dur=0.16s  vel=0.38
+  beat  3.49  A3   (57)  dur=0.27s  vel=0.27
+  beat  3.98  G3   (55)  dur=1.64s  vel=0.38
+
+--- BAR 29 (t=56.00s) ---
+  beat  1.08  C#4  (61)  dur=0.57s  vel=0.43
+  beat  2.08  E4   (64)  dur=0.65s  vel=0.48
+  beat  3.07  C#4  (61)  dur=0.62s  vel=0.49
+
+--- BAR 30 (t=58.00s) ---
+  beat  0.07  D2   (38)  dur=0.49s  vel=0.28
+  beat  0.09  F#4  (66)  dur=2.39s  vel=0.30
+  beat  0.84  A2   (45)  dur=1.23s  vel=0.27
+  beat  1.51  F#3  (54)  dur=0.71s  vel=0.27
+  beat  1.54  A3   (57)  dur=0.17s  vel=0.22
+  beat  1.95  B3   (59)  dur=0.12s  vel=0.30
+  beat  2.22  C#4  (61)  dur=0.16s  vel=0.39
+  beat  2.55  B3   (59)  dur=0.14s  vel=0.36
+  beat  2.84  A3   (57)  dur=0.14s  vel=0.38
+  beat  3.17  B3   (59)  dur=0.12s  vel=0.34
+  beat  3.42  C#4  (61)  dur=0.17s  vel=0.42
+  beat  3.76  B3   (59)  dur=0.15s  vel=0.43
+
+--- BAR 31 (t=60.00s) ---
+  beat  0.04  A3   (57)  dur=0.13s  vel=0.40
+  beat  0.29  B1   (35)  dur=0.23s  vel=0.37
+  beat  0.36  C#4  (61)  dur=0.63s  vel=0.46
+  beat  0.86  B2   (47)  dur=0.06s  vel=0.33
+  beat  1.23  F#3  (54)  dur=0.79s  vel=0.41
+  beat  1.25  F#4  (66)  dur=0.52s  vel=0.45
+  beat  1.68  A3   (57)  dur=0.28s  vel=0.31
+  beat  2.14  D#4  (63)  dur=1.62s  vel=0.43
+  beat  2.15  A4   (69)  dur=0.55s  vel=0.47
+  beat  2.23  B3   (59)  dur=0.17s  vel=0.37
+  beat  3.04  F#4  (66)  dur=0.48s  vel=0.53
+  beat  3.85  G#1  (32)  dur=0.24s  vel=0.46
+  beat  3.88  B4   (71)  dur=0.49s  vel=0.51
+
+--- BAR 32 (t=62.00s) ---
+  beat  0.30  G#2  (44)  dur=0.04s  vel=0.54
+  beat  0.72  G#4  (68)  dur=0.51s  vel=0.55
+  beat  0.73  E3   (52)  dur=0.48s  vel=0.56
+  beat  1.11  G#3  (56)  dur=0.18s  vel=0.57
+  beat  1.58  B4   (71)  dur=0.46s  vel=0.72
+  beat  1.58  E4   (64)  dur=1.68s  vel=0.57
+  beat  1.61  B3   (59)  dur=0.21s  vel=0.54
+  beat  2.35  G#4  (68)  dur=0.51s  vel=0.61
+  beat  3.23  F#1  (30)  dur=0.19s  vel=0.56
+  beat  3.23  C#5  (73)  dur=2.19s  vel=0.61
+  beat  3.25  A4   (69)  dur=0.75s  vel=0.47
+  beat  3.62  F#2  (42)  dur=0.04s  vel=0.46
+
+--- BAR 33 (t=64.00s) ---
+  beat  0.07  C#3  (49)  dur=0.18s  vel=0.43
+  beat  0.41  E3   (52)  dur=0.13s  vel=0.50
+  beat  0.64  F#3  (54)  dur=0.08s  vel=0.54
+  beat  0.88  A3   (57)  dur=0.08s  vel=0.41
+  beat  1.09  C#4  (61)  dur=0.11s  vel=0.65
+  beat  1.35  E4   (64)  dur=0.16s  vel=0.61
+  beat  1.56  F#4  (66)  dur=0.17s  vel=0.57
+  beat  1.80  A4   (69)  dur=0.27s  vel=0.54
+  beat  2.09  G#4  (68)  dur=0.20s  vel=0.55
+  beat  2.33  C#4  (61)  dur=0.13s  vel=0.03
+  beat  2.35  F#4  (66)  dur=0.14s  vel=0.54
+  beat  2.67  E4   (64)  dur=0.79s  vel=0.65
+  beat  3.46  F#4  (66)  dur=0.40s  vel=0.35
+  beat  3.48  A4   (69)  dur=0.54s  vel=0.55
+
+--- BAR 34 (t=66.00s) ---
+  beat  0.42  B4   (71)  dur=0.47s  vel=0.64
+  beat  0.43  G#4  (68)  dur=0.37s  vel=0.41
+  beat  0.44  D#4  (63)  dur=0.28s  vel=0.40
+  beat  1.27  C#5  (73)  dur=0.26s  vel=0.54
+  beat  1.29  A4   (69)  dur=0.14s  vel=0.41
+  beat  1.30  C#4  (61)  dur=0.07s  vel=0.30
+  beat  2.08  F#1  (30)  dur=0.25s  vel=0.43
+  beat  2.22  C#5  (73)  dur=1.86s  vel=0.49
+  beat  2.23  A4   (69)  dur=0.63s  vel=0.34
+  beat  2.60  F#2  (42)  dur=0.04s  vel=0.39
+  beat  3.00  C#3  (49)  dur=0.18s  vel=0.47
+  beat  3.34  E3   (52)  dur=0.14s  vel=0.61
+  beat  3.61  F#3  (54)  dur=0.12s  vel=0.57
+  beat  3.90  A3   (57)  dur=0.06s  vel=0.43
+
+--- BAR 35 (t=68.00s) ---
+  beat  0.10  C#4  (61)  dur=0.07s  vel=0.62
+  beat  0.38  E4   (64)  dur=0.15s  vel=0.56
+  beat  0.59  F#4  (66)  dur=0.17s  vel=0.52
+  beat  0.86  A4   (69)  dur=0.25s  vel=0.56
+  beat  1.15  G#4  (68)  dur=0.19s  vel=0.53
+  beat  1.43  F#4  (66)  dur=0.15s  vel=0.52
+  beat  1.76  E4   (64)  dur=0.41s  vel=0.63
+  beat  2.55  A4   (69)  dur=0.31s  vel=0.50
+  beat  2.57  F#4  (66)  dur=0.17s  vel=0.39
+  beat  2.82  C#4  (61)  dur=0.11s  vel=0.41
+  beat  3.10  E4   (64)  dur=0.05s  vel=0.39
+  beat  3.38  B4   (71)  dur=0.18s  vel=0.66
+  beat  3.40  G#4  (68)  dur=0.17s  vel=0.48
+  beat  3.41  F#3  (54)  dur=0.38s  vel=0.59
+  beat  3.67  D#4  (63)  dur=0.13s  vel=0.44
+  beat  3.94  F#4  (66)  dur=0.07s  vel=0.22
+
+--- BAR 36 (t=70.00s) ---
+  beat  0.12  C#5  (73)  dur=0.23s  vel=0.63
+  beat  0.14  A4   (69)  dur=0.14s  vel=0.49
+  beat  0.39  E4   (64)  dur=0.11s  vel=0.53
+  beat  0.60  G#4  (68)  dur=0.06s  vel=0.45
+  beat  0.96  D#5  (75)  dur=0.30s  vel=0.61
+  beat  0.97  B4   (71)  dur=0.24s  vel=0.62
+  beat  0.98  B2   (47)  dur=0.25s  vel=0.43
+  beat  1.25  F#4  (66)  dur=0.15s  vel=0.32
+  beat  1.50  A4   (69)  dur=0.06s  vel=0.30
+  beat  1.81  E5   (76)  dur=0.22s  vel=0.62
+  beat  1.82  C#5  (73)  dur=0.26s  vel=0.46
+  beat  1.83  F#3  (54)  dur=0.08s  vel=0.51
+  beat  2.03  G#4  (68)  dur=0.15s  vel=0.31
+  beat  2.27  B4   (71)  dur=0.05s  vel=0.41
+  beat  2.54  F#5  (78)  dur=0.24s  vel=0.62
+  beat  2.56  D#5  (75)  dur=0.13s  vel=0.50
+  beat  2.58  A3   (57)  dur=0.15s  vel=0.39
+  beat  2.79  A4   (69)  dur=0.14s  vel=0.35
+  beat  3.04  C#5  (73)  dur=0.05s  vel=0.37
+  beat  3.27  G#5  (80)  dur=0.26s  vel=0.65
+  beat  3.31  B3   (59)  dur=0.12s  vel=0.47
+  beat  3.31  E5   (76)  dur=0.15s  vel=0.46
+  beat  3.54  B4   (71)  dur=0.10s  vel=0.44
+  beat  3.72  D#5  (75)  dur=0.04s  vel=0.47
+
+--- BAR 37 (t=72.00s) ---
+  beat  0.02  A5   (81)  dur=0.26s  vel=0.70
+  beat  0.04  D#4  (63)  dur=0.07s  vel=0.54
+  beat  0.04  F#5  (78)  dur=0.22s  vel=0.53
+  beat  0.23  C#5  (73)  dur=0.14s  vel=0.44
+  beat  0.50  E5   (76)  dur=0.05s  vel=0.35
+  beat  0.78  B5   (83)  dur=0.22s  vel=0.87
+  beat  0.79  F#4  (66)  dur=0.18s  vel=0.41
+  beat  0.81  G#5  (80)  dur=0.16s  vel=0.55
+  beat  1.03  D#5  (75)  dur=0.14s  vel=0.48
+  beat  1.32  F#5  (78)  dur=0.07s  vel=0.38
+  beat  1.63  C#6  (85)  dur=0.40s  vel=0.68
+  beat  1.65  A5   (81)  dur=0.11s  vel=0.54
+  beat  1.65  A4   (69)  dur=0.13s  vel=0.35
+  beat  1.96  E5   (76)  dur=0.16s  vel=0.26
+  beat  2.29  G#5  (80)  dur=0.08s  vel=0.35
+  beat  2.73  D#6  (87)  dur=0.59s  vel=0.49
+  beat  2.73  B5   (83)  dur=0.23s  vel=0.60
+  beat  2.75  B4   (71)  dur=0.08s  vel=0.31
+  beat  3.10  F#5  (78)  dur=0.18s  vel=0.31
+  beat  3.54  A5   (81)  dur=0.14s  vel=0.30
+
+--- BAR 38 (t=74.00s) ---
+  beat  0.33  F#6  (90)  dur=1.69s  vel=0.51
+  beat  0.35  E1   (28)  dur=0.45s  vel=0.23
+  beat  0.35  G#5  (80)  dur=2.26s  vel=0.30
+  beat  0.38  B5   (83)  dur=2.10s  vel=0.43
+  beat  1.28  E2   (40)  dur=0.05s  vel=0.38
+  beat  2.11  B2   (47)  dur=0.25s  vel=0.33
+  beat  2.74  E3   (52)  dur=0.23s  vel=0.28
+  beat  3.39  G#3  (56)  dur=0.18s  vel=0.24
+  beat  3.50  E6   (88)  dur=0.74s  vel=0.35
+
+--- BAR 39 (t=76.00s) ---
+  beat  0.09  B3   (59)  dur=0.07s  vel=0.19
+  beat  0.79  E4   (64)  dur=0.24s  vel=0.21
+  beat  1.46  G#4  (68)  dur=0.33s  vel=0.24
+  beat  2.17  E5   (76)  dur=3.64s  vel=0.37
+
+--- BAR 40 (t=78.00s) ---
+  beat  1.06  E4   (64)  dur=1.59s  vel=0.17
+
+--- BAR 41 (t=80.00s) ---
+  beat  0.37  A4   (69)  dur=2.30s  vel=0.17
+  beat  0.40  F#4  (66)  dur=2.03s  vel=0.06
+  beat  0.41  B3   (59)  dur=0.65s  vel=0.13
+  beat  1.40  D5   (74)  dur=0.35s  vel=0.29
+  beat  1.68  C#4  (61)  dur=0.53s  vel=0.15
+  beat  2.01  E5   (76)  dur=0.48s  vel=0.32
+  beat  2.72  C#5  (73)  dur=0.96s  vel=0.28
+  beat  2.83  D4   (62)  dur=0.79s  vel=0.11
+
+--- BAR 42 (t=82.00s) ---
+  beat  0.67  B4   (71)  dur=0.18s  vel=0.33
+  beat  1.50  G#4  (68)  dur=0.38s  vel=0.26
+  beat  1.50  B4   (71)  dur=0.35s  vel=0.43
+  beat  1.55  D4   (62)  dur=0.27s  vel=0.17
+  beat  1.56  E3   (52)  dur=0.32s  vel=0.23
+  beat  2.19  C#5  (73)  dur=0.33s  vel=0.42
+  beat  2.84  C#4  (61)  dur=0.27s  vel=0.14
+  beat  2.84  F#4  (66)  dur=0.35s  vel=0.20
+  beat  2.84  A4   (69)  dur=0.33s  vel=0.34
+  beat  2.85  F#3  (54)  dur=0.29s  vel=0.20
+
+--- BAR 43 (t=84.00s) ---
+  beat  0.10  F#4  (66)  dur=1.13s  vel=0.23
+  beat  0.12  D#4  (63)  dur=1.32s  vel=0.25
+  beat  0.13  B2   (47)  dur=1.47s  vel=0.08
+  beat  0.14  A3   (57)  dur=1.38s  vel=0.13
+  beat  2.88  G#4  (68)  dur=0.34s  vel=0.23
+
+--- BAR 44 (t=86.00s) ---
+  beat  0.08  F#4  (66)  dur=0.38s  vel=0.21
+  beat  0.10  D4   (62)  dur=0.29s  vel=0.14
+  beat  0.10  E2   (40)  dur=0.22s  vel=0.20
+  beat  0.10  B2   (47)  dur=0.22s  vel=0.15
+  beat  0.10  G#3  (56)  dur=0.22s  vel=0.13
+  beat  0.88  E4   (64)  dur=0.08s  vel=0.31
+  beat  1.98  F#5  (78)  dur=1.33s  vel=0.46
+  beat  2.01  G#3  (56)  dur=1.43s  vel=0.14
+  beat  2.01  D5   (74)  dur=1.22s  vel=0.25
+  beat  2.02  F#4  (66)  dur=0.94s  vel=0.15
+  beat  2.02  D4   (62)  dur=1.27s  vel=0.20
+  beat  2.02  B4   (71)  dur=1.25s  vel=0.24
+
+--- BAR 45 (t=88.00s) ---
+  beat  0.65  E5   (76)  dur=0.08s  vel=0.24
+  beat  0.68  E4   (64)  dur=0.07s  vel=0.17
+  beat  2.35  F#4  (66)  dur=0.39s  vel=0.26
+  beat  2.38  A3   (57)  dur=0.23s  vel=0.23
+  beat  2.38  C#4  (61)  dur=0.33s  vel=0.25
+  beat  2.39  A2   (45)  dur=0.26s  vel=0.19
+  beat  2.39  E3   (52)  dur=0.24s  vel=0.27
+  beat  3.10  E4   (64)  dur=0.04s  vel=0.48
+  beat  3.98  G#5  (80)  dur=0.80s  vel=0.54
+
+--- BAR 46 (t=90.00s) ---
+  beat  0.03  A3   (57)  dur=2.38s  vel=0.17
+  beat  0.04  C#4  (61)  dur=2.47s  vel=0.14
+  beat  0.04  E3   (52)  dur=2.37s  vel=0.26
+  beat  0.04  E4   (64)  dur=2.40s  vel=0.22
+  beat  0.04  A4   (69)  dur=0.59s  vel=0.13
+  beat  0.04  C#5  (73)  dur=0.71s  vel=0.19
+  beat  2.45  B5   (83)  dur=0.68s  vel=0.69
+  beat  3.70  A5   (81)  dur=0.57s  vel=0.46
+
+--- BAR 47 (t=92.00s) ---
+  beat  0.86  F#5  (78)  dur=0.13s  vel=0.43
+  beat  1.72  E5   (76)  dur=0.32s  vel=0.39
+  beat  1.76  A4   (69)  dur=1.99s  vel=0.20
+  beat  1.76  B3   (59)  dur=0.41s  vel=0.18
+  beat  1.77  F#4  (66)  dur=1.78s  vel=0.15
+  beat  2.26  D5   (74)  dur=0.26s  vel=0.46
+  beat  2.52  C#4  (61)  dur=0.38s  vel=0.30
+  beat  2.70  E5   (76)  dur=0.32s  vel=0.48
+  beat  3.26  C#5  (73)  dur=0.91s  vel=0.43
+  beat  3.39  D4   (62)  dur=1.45s  vel=0.25
+
+--- BAR 48 (t=94.00s) ---
+  beat  1.02  B4   (71)  dur=0.16s  vel=0.50
+  beat  1.74  B4   (71)  dur=0.26s  vel=0.45
+  beat  1.78  G#4  (68)  dur=0.38s  vel=0.29
+  beat  1.79  F4   (65)  dur=0.18s  vel=0.16
+  beat  2.35  C#5  (73)  dur=0.32s  vel=0.35
+  beat  2.96  A4   (69)  dur=0.79s  vel=0.40
+  beat  2.98  E4   (64)  dur=1.27s  vel=0.35
+  beat  3.00  C#4  (61)  dur=0.29s  vel=0.20
+  beat  3.03  F#3  (54)  dur=0.63s  vel=0.19
+
+--- BAR 49 (t=96.00s) ---
+  beat  0.28  F#4  (66)  dur=0.86s  vel=0.32
+  beat  0.29  A3   (57)  dur=1.23s  vel=0.22
+  beat  0.32  B2   (47)  dur=1.32s  vel=0.20
+  beat  1.49  D#4  (63)  dur=0.61s  vel=0.33
+  beat  2.30  F#4  (66)  dur=0.18s  vel=0.39
+  beat  2.99  C#4  (61)  dur=0.46s  vel=0.36
+  beat  3.00  F#4  (66)  dur=0.32s  vel=0.32
+  beat  3.01  D#3  (51)  dur=0.43s  vel=0.28
+  beat  3.04  A2   (45)  dur=0.46s  vel=0.24
+  beat  3.63  G#4  (68)  dur=0.14s  vel=0.46
+
+--- BAR 50 (t=98.00s) ---
+  beat  0.23  F#4  (66)  dur=0.31s  vel=0.39
+  beat  0.24  G#2  (44)  dur=0.84s  vel=0.32
+  beat  0.27  B3   (59)  dur=0.29s  vel=0.33
+  beat  0.29  E3   (52)  dur=0.41s  vel=0.30
+  beat  0.78  E4   (64)  dur=0.21s  vel=0.45
+  beat  1.22  B3   (59)  dur=0.35s  vel=0.47
+  beat  1.80  C#4  (61)  dur=0.81s  vel=0.44
+  beat  1.82  F#2  (42)  dur=0.71s  vel=0.25
+  beat  1.86  A3   (57)  dur=0.80s  vel=0.24
+  beat  1.88  E3   (52)  dur=0.60s  vel=0.33
+
+--- BAR 51 (t=100.00s) ---
+  beat  0.21  A3   (57)  dur=0.39s  vel=0.25
+  beat  0.21  E4   (64)  dur=0.38s  vel=0.35
+  beat  0.21  C#4  (61)  dur=0.70s  vel=0.23
+  beat  0.26  B1   (35)  dur=0.66s  vel=0.21
+  beat  0.26  B2   (47)  dur=0.25s  vel=0.17
+  beat  1.51  A3   (57)  dur=0.66s  vel=0.31
+  beat  1.52  E4   (64)  dur=2.19s  vel=0.37
+  beat  1.52  E2   (40)  dur=1.01s  vel=0.25
+  beat  1.52  B3   (59)  dur=2.27s  vel=0.32
+  beat  1.54  B2   (47)  dur=1.24s  vel=0.24
+  beat  2.79  G#3  (56)  dur=1.73s  vel=0.32
+
+--- BAR 52 (t=102.00s) ---
+  beat  0.02  E2   (40)  dur=0.71s  vel=0.43
+  beat  1.50  E3   (52)  dur=0.39s  vel=0.35
+  beat  3.32  D3   (50)  dur=0.39s  vel=0.26
+  beat  3.80  F#3  (54)  dur=0.22s  vel=0.35
+
+--- BAR 53 (t=104.00s) ---
+  beat  0.14  A3   (57)  dur=0.19s  vel=0.24
+  beat  0.41  F#2  (42)  dur=0.86s  vel=0.24
+  beat  0.45  C#4  (61)  dur=0.17s  vel=0.36
+  beat  0.79  B3   (59)  dur=0.14s  vel=0.35
+  beat  1.07  A3   (57)  dur=0.07s  vel=0.38
+  beat  1.35  G#3  (56)  dur=0.32s  vel=0.45
+  beat  1.67  B3   (59)  dur=0.17s  vel=0.39
+  beat  1.92  D4   (62)  dur=0.15s  vel=0.45
+  beat  2.18  F#4  (66)  dur=0.23s  vel=0.43
+  beat  2.19  E2   (40)  dur=0.19s  vel=0.43
+  beat  2.45  E4   (64)  dur=0.16s  vel=0.51
+  beat  2.71  D4   (62)  dur=0.06s  vel=0.47
+  beat  2.97  C#4  (61)  dur=0.23s  vel=0.62
+  beat  3.23  E4   (64)  dur=0.19s  vel=0.56
+  beat  3.45  G#4  (68)  dur=0.18s  vel=0.54
+  beat  3.71  A2   (45)  dur=0.14s  vel=0.43
+  beat  3.72  A1   (33)  dur=0.14s  vel=0.43
+  beat  3.72  B4   (71)  dur=0.23s  vel=0.69
+  beat  3.97  A4   (69)  dur=0.17s  vel=0.54
+
+--- BAR 54 (t=106.00s) ---
+  beat  0.22  G#4  (68)  dur=0.13s  vel=0.57
+  beat  0.48  F#4  (66)  dur=0.19s  vel=0.62
+  beat  0.73  A4   (69)  dur=0.15s  vel=0.62
+  beat  0.94  C#5  (73)  dur=0.18s  vel=0.60
+  beat  1.21  E5   (76)  dur=0.26s  vel=0.64
+  beat  1.22  D3   (50)  dur=0.21s  vel=0.48
+  beat  1.23  D2   (38)  dur=0.20s  vel=0.50
+  beat  1.43  D5   (74)  dur=0.18s  vel=0.72
+  beat  1.68  C#5  (73)  dur=0.15s  vel=0.65
+  beat  1.94  B4   (71)  dur=0.20s  vel=0.80
+  beat  2.19  D5   (74)  dur=0.20s  vel=0.79
+  beat  2.46  F#5  (78)  dur=0.21s  vel=0.74
+  beat  2.75  B1   (35)  dur=0.08s  vel=0.71
+  beat  2.75  B2   (47)  dur=0.11s  vel=0.57
+  beat  2.75  A5   (81)  dur=0.51s  vel=0.76
+  beat  3.66  D5   (74)  dur=0.28s  vel=0.63
+  beat  3.67  F#3  (54)  dur=0.16s  vel=0.47
+  beat  3.67  B4   (71)  dur=0.27s  vel=0.61
+  beat  3.68  B3   (59)  dur=0.07s  vel=0.38
+  beat  3.68  F#4  (66)  dur=0.12s  vel=0.55
+  beat  3.69  D4   (62)  dur=0.08s  vel=0.43
+
+--- BAR 55 (t=108.00s) ---
+  beat  0.09  G#5  (80)  dur=0.33s  vel=0.69
+  beat  0.60  G#4  (68)  dur=0.31s  vel=0.57
+  beat  0.60  D5   (74)  dur=0.18s  vel=0.54
+  beat  0.60  F#5  (78)  dur=0.30s  vel=0.67
+  beat  0.62  E3   (52)  dur=0.15s  vel=0.69
+  beat  0.63  E2   (40)  dur=0.20s  vel=0.69
+  beat  1.06  E5   (76)  dur=0.16s  vel=0.64
+  beat  1.46  F#5  (78)  dur=0.38s  vel=0.61
+  beat  1.46  A4   (69)  dur=0.80s  vel=0.48
+  beat  1.48  A1   (33)  dur=0.06s  vel=0.59
+  beat  1.49  A2   (45)  dur=0.12s  vel=0.43
+  beat  1.50  C#5  (73)  dur=0.09s  vel=0.34
+  beat  1.94  E5   (76)  dur=0.28s  vel=0.57
+  beat  2.38  D5   (74)  dur=0.24s  vel=0.65
+  beat  2.42  E3   (52)  dur=0.58s  vel=0.36
+  beat  2.82  C#5  (73)  dur=0.13s  vel=0.54
+  beat  3.34  D5   (74)  dur=0.39s  vel=0.48
+  beat  3.35  A4   (69)  dur=0.44s  vel=0.26
+  beat  3.38  F#4  (66)  dur=0.28s  vel=0.24
+
+--- BAR 56 (t=110.00s) ---
+  beat  0.02  C#5  (73)  dur=0.28s  vel=0.38
+  beat  0.06  E4   (64)  dur=0.09s  vel=0.20
+  beat  0.56  B4   (71)  dur=0.13s  vel=0.35
+  beat  0.66  D4   (62)  dur=0.12s  vel=0.07
+  beat  1.10  A4   (69)  dur=0.07s  vel=0.24
+  beat  1.11  C#4  (61)  dur=0.11s  vel=0.23
+  beat  2.04  D3   (50)  dur=0.21s  vel=0.32
+  beat  2.36  F#3  (54)  dur=0.17s  vel=0.43
+  beat  2.67  A3   (57)  dur=0.15s  vel=0.28
+  beat  2.92  F#2  (42)  dur=0.79s  vel=0.42
+  beat  2.92  C#4  (61)  dur=0.14s  vel=0.39
+  beat  3.21  B3   (59)  dur=0.10s  vel=0.36
+  beat  3.42  A3   (57)  dur=0.07s  vel=0.37
+  beat  3.71  G#3  (56)  dur=0.29s  vel=0.43
+
+--- BAR 57 (t=112.00s) ---
+  beat  0.04  B3   (59)  dur=0.18s  vel=0.38
+  beat  0.28  D4   (62)  dur=0.17s  vel=0.47
+  beat  0.55  E2   (40)  dur=0.15s  vel=0.51
+  beat  0.56  F#4  (66)  dur=0.21s  vel=0.46
+  beat  0.81  E4   (64)  dur=0.17s  vel=0.54
+  beat  1.04  D4   (62)  dur=0.08s  vel=0.54
+  beat  1.32  C#4  (61)  dur=0.19s  vel=0.61
+  beat  1.55  E4   (64)  dur=0.20s  vel=0.60
+  beat  1.79  G#4  (68)  dur=0.18s  vel=0.54
+  beat  2.05  B4   (71)  dur=0.24s  vel=0.71
+  beat  2.06  A2   (45)  dur=0.35s  vel=0.51
+  beat  2.07  A1   (33)  dur=0.24s  vel=0.44
+  beat  2.29  A4   (69)  dur=0.18s  vel=0.59
+  beat  2.54  G#4  (68)  dur=0.14s  vel=0.61
+  beat  2.77  F#4  (66)  dur=0.16s  vel=0.65
+  beat  3.00  A4   (69)  dur=0.16s  vel=0.64
+  beat  3.21  C#5  (73)  dur=0.18s  vel=0.64
+  beat  3.44  D3   (50)  dur=0.15s  vel=0.65
+  beat  3.46  D2   (38)  dur=0.16s  vel=0.60
+  beat  3.46  E5   (76)  dur=0.26s  vel=0.66
+  beat  3.69  D5   (74)  dur=0.20s  vel=0.74
+  beat  3.92  C#5  (73)  dur=0.16s  vel=0.68
+
+--- BAR 58 (t=114.00s) ---
+  beat  0.19  B4   (71)  dur=0.20s  vel=0.84
+  beat  0.44  D5   (74)  dur=0.18s  vel=0.80
+  beat  0.68  F#5  (78)  dur=0.20s  vel=0.73
+  beat  0.95  B2   (47)  dur=0.13s  vel=0.72
+  beat  0.96  A5   (81)  dur=0.54s  vel=0.79
+  beat  0.96  B1   (35)  dur=0.11s  vel=0.81
+  beat  1.83  F#4  (66)  dur=0.15s  vel=0.60
+  beat  1.84  B4   (71)  dur=0.35s  vel=0.67
+  beat  1.84  F#3  (54)  dur=0.34s  vel=0.52
+  beat  1.84  D5   (74)  dur=0.35s  vel=0.69
+  beat  1.85  B3   (59)  dur=0.07s  vel=0.43
+  beat  1.87  D4   (62)  dur=0.32s  vel=0.52
+  beat  2.34  G#5  (80)  dur=0.28s  vel=0.73
+  beat  2.75  F#5  (78)  dur=0.26s  vel=0.72
+  beat  3.16  G#5  (80)  dur=0.27s  vel=0.77
+  beat  3.61  B4   (71)  dur=0.22s  vel=0.81
+  beat  3.92  D5   (74)  dur=0.20s  vel=0.76
+
+--- BAR 59 (t=116.00s) ---
+  beat  0.19  F#5  (78)  dur=0.22s  vel=0.70
+  beat  0.46  D2   (38)  dur=0.14s  vel=0.64
+  beat  0.47  D3   (50)  dur=0.21s  vel=0.60
+  beat  0.47  A5   (81)  dur=0.91s  vel=0.77
+  beat  1.47  F#4  (66)  dur=0.89s  vel=0.44
+  beat  1.47  B4   (71)  dur=0.96s  vel=0.58
+  beat  1.48  D5   (74)  dur=0.93s  vel=0.61
+  beat  1.49  F#3  (54)  dur=0.99s  vel=0.36
+  beat  1.50  B3   (59)  dur=0.86s  vel=0.28
+  beat  1.50  D4   (62)  dur=0.84s  vel=0.35
+  beat  2.10  G#5  (80)  dur=0.40s  vel=0.66
+  beat  2.77  F#5  (78)  dur=0.26s  vel=0.66
+  beat  3.52  G#5  (80)  dur=0.09s  vel=0.68
+
+--- BAR 60 (t=118.00s) ---
+  beat  0.31  E3   (52)  dur=1.68s  vel=0.26
+  beat  0.60  D4   (62)  dur=2.48s  vel=0.20
+  beat  0.63  E5   (76)  dur=0.33s  vel=0.50
+  beat  0.66  G#4  (68)  dur=1.58s  vel=0.26
+  beat  1.22  D5   (74)  dur=0.28s  vel=0.50
+  beat  1.72  E5   (76)  dur=0.34s  vel=0.43
+  beat  2.35  C#5  (73)  dur=0.97s  vel=0.31
+  beat  3.59  F#4  (66)  dur=0.74s  vel=0.21
+  beat  3.60  F#3  (54)  dur=0.63s  vel=0.29
+
+--- BAR 61 (t=120.00s) ---
+  beat  0.21  B4   (71)  dur=0.16s  vel=0.50
+  beat  0.94  F4   (65)  dur=0.42s  vel=0.31
+  beat  0.94  B4   (71)  dur=0.29s  vel=0.53
+  beat  0.96  G#3  (56)  dur=0.49s  vel=0.20
+  beat  1.52  C#5  (73)  dur=0.44s  vel=0.45
+  beat  2.13  A4   (69)  dur=0.77s  vel=0.39
+  beat  2.15  E4   (64)  dur=1.75s  vel=0.39
+  beat  2.19  C#4  (61)  dur=1.00s  vel=0.15
+  beat  2.20  A3   (57)  dur=0.97s  vel=0.16
+  beat  3.60  F#4  (66)  dur=1.53s  vel=0.31
+
+--- BAR 62 (t=122.00s) ---
+  beat  1.27  D#4  (63)  dur=0.85s  vel=0.26
+  beat  1.31  A3   (57)  dur=0.83s  vel=0.14
+  beat  1.37  B2   (47)  dur=0.82s  vel=0.20
+  beat  2.56  G#4  (68)  dur=0.68s  vel=0.32
+  beat  3.97  F#4  (66)  dur=0.56s  vel=0.19
+
+--- BAR 63 (t=124.00s) ---
+  beat  0.01  G#3  (56)  dur=0.30s  vel=0.12
+  beat  0.01  D4   (62)  dur=0.49s  vel=0.15
+  beat  0.02  B2   (47)  dur=0.33s  vel=0.17
+  beat  0.03  E2   (40)  dur=0.34s  vel=0.24
+  beat  1.08  E4   (64)  dur=0.15s  vel=0.31
+  beat  2.06  F#5  (78)  dur=1.51s  vel=0.42
+  beat  2.07  G#3  (56)  dur=1.71s  vel=0.13
+  beat  2.08  D4   (62)  dur=1.54s  vel=0.17
+  beat  2.08  D5   (74)  dur=1.36s  vel=0.17
+  beat  2.09  F#4  (66)  dur=0.65s  vel=0.19
+  beat  2.12  B4   (71)  dur=1.38s  vel=0.21
+
+--- BAR 64 (t=126.00s) ---
+  beat  1.18  E5   (76)  dur=0.13s  vel=0.26
+  beat  1.24  E4   (64)  dur=0.10s  vel=0.16
+  beat  2.38  F#4  (66)  dur=0.42s  vel=0.31
+  beat  2.41  A2   (45)  dur=0.26s  vel=0.13
+  beat  2.42  A3   (57)  dur=0.22s  vel=0.24
+  beat  2.42  C#4  (61)  dur=0.28s  vel=0.21
+  beat  2.44  E3   (52)  dur=0.22s  vel=0.22
+  beat  3.15  E4   (64)  dur=0.10s  vel=0.54
+
+--- BAR 65 (t=128.00s) ---
+  beat  0.02  G#5  (80)  dur=1.42s  vel=0.61
+  beat  0.07  A4   (69)  dur=0.62s  vel=0.21
+  beat  0.08  E3   (52)  dur=1.71s  vel=0.26
+  beat  0.08  A3   (57)  dur=1.75s  vel=0.22
+  beat  0.08  E4   (64)  dur=1.89s  vel=0.18
+  beat  0.08  C#5  (73)  dur=0.68s  vel=0.19
+  beat  0.10  C#4  (61)  dur=1.82s  vel=0.20
+  beat  2.32  B5   (83)  dur=0.56s  vel=0.67
+  beat  3.23  A5   (81)  dur=0.34s  vel=0.51
+  beat  3.93  F#5  (78)  dur=0.13s  vel=0.50
+
+--- BAR 66 (t=130.00s) ---
+  beat  0.58  E5   (76)  dur=0.33s  vel=0.39
+  beat  0.60  F#4  (66)  dur=1.72s  vel=0.15
+  beat  0.61  A4   (69)  dur=2.08s  vel=0.20
+  beat  0.64  B3   (59)  dur=0.47s  vel=0.10
+  beat  1.13  D5   (74)  dur=0.26s  vel=0.48
+  beat  1.42  C#4  (61)  dur=0.41s  vel=0.26
+  beat  1.59  E5   (76)  dur=0.32s  vel=0.46
+  beat  2.19  C#5  (73)  dur=0.95s  vel=0.41
+  beat  2.27  D4   (62)  dur=1.47s  vel=0.24
+  beat  3.99  B4   (71)  dur=0.15s  vel=0.45
+
+--- BAR 67 (t=132.00s) ---
+  beat  0.63  B4   (71)  dur=0.29s  vel=0.39
+  beat  0.66  G#4  (68)  dur=0.36s  vel=0.28
+  beat  0.69  F4   (65)  dur=0.20s  vel=0.24
+  beat  1.24  C#5  (73)  dur=0.41s  vel=0.41
+  beat  1.89  A4   (69)  dur=0.64s  vel=0.33
+  beat  1.92  C#4  (61)  dur=0.95s  vel=0.16
+  beat  1.94  E4   (64)  dur=1.27s  vel=0.21
+  beat  1.96  F#3  (54)  dur=1.24s  vel=0.17
+  beat  3.15  G#4  (68)  dur=1.04s  vel=0.34
+
+--- BAR 68 (t=134.00s) ---
+  beat  0.39  B2   (47)  dur=0.70s  vel=0.24
+  beat  0.40  D#4  (63)  dur=0.78s  vel=0.30
+  beat  0.43  A3   (57)  dur=0.58s  vel=0.13
+  beat  1.18  F#4  (66)  dur=0.15s  vel=0.30
+  beat  1.86  F#4  (66)  dur=0.33s  vel=0.31
+  beat  1.87  C#4  (61)  dur=0.43s  vel=0.28
+  beat  1.88  D#3  (51)  dur=0.57s  vel=0.26
+  beat  1.89  A2   (45)  dur=0.47s  vel=0.23
+  beat  2.48  G#4  (68)  dur=0.13s  vel=0.41
+  beat  3.04  G#2  (44)  dur=0.80s  vel=0.31
+  beat  3.08  F#4  (66)  dur=0.31s  vel=0.31
+  beat  3.09  E3   (52)  dur=0.39s  vel=0.30
+  beat  3.11  B3   (59)  dur=0.24s  vel=0.26
+  beat  3.58  E4   (64)  dur=0.22s  vel=0.43
+
+--- BAR 69 (t=136.00s) ---
+  beat  0.03  B3   (59)  dur=0.38s  vel=0.52
+  beat  0.67  C#4  (61)  dur=0.90s  vel=0.46
+  beat  0.71  F#2  (42)  dur=0.83s  vel=0.20
+  beat  0.72  E3   (52)  dur=0.52s  vel=0.31
+  beat  0.72  A3   (57)  dur=0.88s  vel=0.23
+  beat  3.30  A3   (57)  dur=0.45s  vel=0.15
+  beat  3.31  C#4  (61)  dur=0.35s  vel=0.13
+  beat  3.31  E4   (64)  dur=0.39s  vel=0.30
+  beat  3.33  B1   (35)  dur=0.30s  vel=0.13
+  beat  3.34  B2   (47)  dur=0.27s  vel=0.08
+
+--- BAR 70 (t=138.00s) ---
+  beat  0.73  E4   (64)  dur=0.88s  vel=0.31
+  beat  0.75  A3   (57)  dur=0.53s  vel=0.23
+  beat  0.75  B3   (59)  dur=0.84s  vel=0.20
+  beat  0.78  E2   (40)  dur=0.86s  vel=0.24
+  beat  0.78  B2   (47)  dur=0.91s  vel=0.17
+  beat  2.00  G#3  (56)  dur=0.24s  vel=0.28
+  beat  3.30  E2   (40)  dur=0.53s  vel=0.33
+
+--- BAR 71 (t=140.00s) ---
+  beat  0.61  D3   (50)  dur=0.43s  vel=0.28
+  beat  2.27  G4   (67)  dur=0.28s  vel=0.63
+  beat  2.29  G3   (55)  dur=0.36s  vel=0.35
+  beat  2.33  E2   (40)  dur=0.57s  vel=0.41
+  beat  2.33  C4   (60)  dur=0.30s  vel=0.34
+  beat  2.75  F4   (65)  dur=0.18s  vel=0.53
+  beat  3.08  G4   (67)  dur=0.23s  vel=0.55
+  beat  3.46  E4   (64)  dur=1.08s  vel=0.65
+  beat  3.46  A3   (57)  dur=0.74s  vel=0.42
+  beat  3.48  F2   (41)  dur=1.10s  vel=0.41
+  beat  3.51  C3   (48)  dur=0.80s  vel=0.23
+  beat  3.51  C4   (60)  dur=0.64s  vel=0.33
+
+--- BAR 72 (t=142.00s) ---
+  beat  1.54  D4   (62)  dur=0.56s  vel=0.58
+  beat  1.56  D3   (50)  dur=0.35s  vel=0.41
+  beat  1.56  F3   (53)  dur=0.34s  vel=0.57
+  beat  1.57  B3   (59)  dur=0.30s  vel=0.46
+  beat  1.58  G2   (43)  dur=0.54s  vel=0.43
+  beat  2.60  C4   (60)  dur=0.61s  vel=0.66
+  beat  2.60  A2   (45)  dur=0.62s  vel=0.45
+  beat  2.63  C3   (48)  dur=0.35s  vel=0.35
+  beat  2.63  A3   (57)  dur=0.25s  vel=0.43
+  beat  2.64  E3   (52)  dur=0.32s  vel=0.57
+  beat  3.76  G3   (55)  dur=1.02s  vel=0.55
+  beat  3.77  D3   (50)  dur=0.86s  vel=0.42
+  beat  3.79  B2   (47)  dur=1.02s  vel=0.45
+  beat  3.79  F3   (53)  dur=0.96s  vel=0.69
+
+--- BAR 73 (t=144.00s) ---
+  beat  1.79  C4   (60)  dur=0.26s  vel=0.66
+  beat  1.80  A3   (57)  dur=0.23s  vel=0.47
+  beat  1.81  A2   (45)  dur=0.53s  vel=0.48
+  beat  1.81  E3   (52)  dur=0.23s  vel=0.59
+  beat  2.81  F3   (53)  dur=0.20s  vel=0.76
+  beat  2.82  G2   (43)  dur=0.48s  vel=0.50
+  beat  2.82  D4   (62)  dur=0.23s  vel=0.65
+  beat  2.85  B3   (59)  dur=0.20s  vel=0.55
+  beat  3.76  F4   (65)  dur=0.30s  vel=0.66
+  beat  3.77  A3   (57)  dur=0.30s  vel=0.55
+  beat  3.79  F2   (41)  dur=0.44s  vel=0.60
+  beat  3.79  C4   (60)  dur=0.23s  vel=0.51
+
+--- BAR 74 (t=146.00s) ---
+  beat  0.68  G4   (67)  dur=0.27s  vel=0.70
+  beat  0.71  E2   (40)  dur=0.25s  vel=0.57
+  beat  0.71  G3   (55)  dur=0.18s  vel=0.57
+  beat  0.72  C4   (60)  dur=0.19s  vel=0.46
+  beat  1.69  A4   (69)  dur=0.40s  vel=0.57
+  beat  1.72  C4   (60)  dur=0.23s  vel=0.45
+  beat  1.73  D2   (38)  dur=0.28s  vel=0.35
+  beat  1.73  F4   (65)  dur=0.26s  vel=0.43
+  beat  1.78  D3   (50)  dur=0.16s  vel=0.35
+  beat  2.37  C5   (72)  dur=0.15s  vel=0.63
+  beat  2.96  G1   (31)  dur=0.35s  vel=0.44
+  beat  3.09  D5   (74)  dur=1.44s  vel=0.65
+  beat  3.10  B4   (71)  dur=1.25s  vel=0.54
+  beat  3.10  F4   (65)  dur=1.18s  vel=0.36
+  beat  3.73  G2   (43)  dur=0.05s  vel=0.35
+
+--- BAR 75 (t=148.00s) ---
+  beat  0.35  D3   (50)  dur=0.54s  vel=0.35
+  beat  0.86  F3   (53)  dur=0.24s  vel=0.61
+  beat  1.37  G3   (55)  dur=0.19s  vel=0.46
+  beat  1.40  G4   (67)  dur=0.37s  vel=0.55
+  beat  1.86  B3   (59)  dur=0.06s  vel=0.44
+  beat  2.32  D4   (62)  dur=0.24s  vel=0.50
+  beat  2.79  F4   (65)  dur=0.27s  vel=0.50
+  beat  3.31  E4   (64)  dur=1.24s  vel=0.36
+  beat  3.34  G5   (79)  dur=0.29s  vel=0.71
+  beat  3.36  G4   (67)  dur=1.22s  vel=0.39
+  beat  3.36  C5   (72)  dur=2.11s  vel=0.41
+  beat  3.80  F5   (77)  dur=0.25s  vel=0.65
+
+--- BAR 76 (t=150.00s) ---
+  beat  0.20  G5   (79)  dur=0.34s  vel=0.64
+  beat  0.70  E5   (76)  dur=1.13s  vel=0.54
+  beat  1.67  A4   (69)  dur=1.11s  vel=0.38
+  beat  1.71  F4   (65)  dur=1.03s  vel=0.31
+  beat  2.77  D5   (74)  dur=0.67s  vel=0.59
+  beat  3.81  A#4  (70)  dur=1.15s  vel=0.35
+  beat  3.81  E5   (76)  dur=1.37s  vel=0.50
+  beat  3.82  C5   (72)  dur=1.82s  vel=0.20
+  beat  3.85  G4   (67)  dur=1.08s  vel=0.21
+
+--- BAR 77 (t=152.00s) ---
+  beat  2.17  F5   (77)  dur=0.71s  vel=0.39
+  beat  2.23  A4   (69)  dur=0.76s  vel=0.20
+  beat  2.26  F4   (65)  dur=0.84s  vel=0.19
+
+--- BAR 78 (t=154.00s) ---
+  beat  0.31  G5   (79)  dur=0.29s  vel=0.51
+  beat  0.34  C5   (72)  dur=3.86s  vel=0.24
+  beat  0.35  E4   (64)  dur=5.59s  vel=0.25
+  beat  0.38  G4   (67)  dur=2.24s  vel=0.20
+  beat  0.77  F5   (77)  dur=0.23s  vel=0.52
+  beat  1.17  G5   (79)  dur=0.31s  vel=0.56
+  beat  1.64  E5   (76)  dur=1.20s  vel=0.45
+  beat  3.79  G5   (79)  dur=0.76s  vel=0.39
+
+--- BAR 79 (t=156.00s) ---
+  beat  1.29  G#5  (80)  dur=0.35s  vel=0.26
+  beat  1.35  G#4  (68)  dur=3.52s  vel=0.16
+  beat  1.91  F#5  (78)  dur=0.28s  vel=0.28
+  beat  2.43  G#5  (80)  dur=0.47s  vel=0.29
+  beat  3.21  E5   (76)  dur=1.60s  vel=0.22
+
+--- BAR 80 (t=158.00s) ---
+  beat  0.76  C#5  (73)  dur=2.49s  vel=0.13
+  beat  2.39  G#5  (80)  dur=1.69s  vel=0.18
+  beat  3.72  D#4  (63)  dur=0.45s  vel=0.06
+
+--- BAR 81 (t=160.00s) ---
+  beat  1.26  C#4  (61)  dur=1.09s  vel=0.12
+  beat  1.30  A5   (81)  dur=1.20s  vel=0.31
+  beat  2.00  E4   (64)  dur=0.44s  vel=0.13
+  beat  2.39  A4   (69)  dur=0.18s  vel=0.14
+  beat  2.71  C#5  (73)  dur=0.19s  vel=0.15
+  beat  3.09  E5   (76)  dur=0.11s  vel=0.24
+  beat  3.33  F#5  (78)  dur=0.15s  vel=0.32
+  beat  3.64  G#5  (80)  dur=1.01s  vel=0.48
+  beat  3.97  D#5  (75)  dur=0.11s  vel=0.21
+
+--- BAR 82 (t=162.00s) ---
+  beat  0.29  B4   (71)  dur=0.29s  vel=0.25
+  beat  0.53  G#4  (68)  dur=0.22s  vel=0.20
+  beat  0.85  D#4  (63)  dur=0.18s  vel=0.28
+  beat  1.17  B3   (59)  dur=0.10s  vel=0.29
+  beat  1.39  F#5  (78)  dur=0.96s  vel=0.54
+  beat  1.42  A3   (57)  dur=0.51s  vel=0.19
+  beat  1.74  C#4  (61)  dur=0.43s  vel=0.26
+  beat  2.02  F#4  (66)  dur=0.18s  vel=0.16
+  beat  2.30  A4   (69)  dur=0.13s  vel=0.24
+  beat  2.56  C#5  (73)  dur=0.12s  vel=0.27
+  beat  2.83  D#5  (75)  dur=0.07s  vel=0.22
+  beat  3.07  E5   (76)  dur=0.96s  vel=0.40
+  beat  3.40  B4   (71)  dur=0.19s  vel=0.34
+  beat  3.63  G#4  (68)  dur=0.21s  vel=0.28
+  beat  3.86  E4   (64)  dur=0.19s  vel=0.28
+
+--- BAR 83 (t=164.00s) ---
+  beat  0.18  B3   (59)  dur=0.11s  vel=0.24
+  beat  0.43  G#3  (56)  dur=0.11s  vel=0.29
+  beat  0.74  F#3  (54)  dur=1.06s  vel=0.39
+  beat  1.10  A3   (57)  dur=0.59s  vel=0.31
+  beat  1.40  C#4  (61)  dur=0.56s  vel=0.33
+  beat  1.71  C#5  (73)  dur=0.62s  vel=0.50
+  beat  2.00  F#4  (66)  dur=0.24s  vel=0.28
+  beat  2.35  A4   (69)  dur=0.22s  vel=0.20
+  beat  2.73  E3   (52)  dur=1.01s  vel=0.31
+  beat  2.77  F#5  (78)  dur=0.58s  vel=0.45
+  beat  3.24  A3   (57)  dur=0.43s  vel=0.24
+  beat  3.55  C#4  (61)  dur=0.39s  vel=0.21
+  beat  3.85  C#5  (73)  dur=0.74s  vel=0.33
+
+--- BAR 84 (t=166.00s) ---
+  beat  0.17  F#4  (66)  dur=0.16s  vel=0.20
+  beat  0.53  A4   (69)  dur=0.41s  vel=0.18
+  beat  0.70  D#3  (51)  dur=0.76s  vel=0.35
+  beat  1.10  A3   (57)  dur=0.23s  vel=0.28
+  beat  1.35  C#4  (61)  dur=0.42s  vel=0.44
+  beat  1.60  C#5  (73)  dur=0.55s  vel=0.52
+  beat  1.90  F#4  (66)  dur=0.16s  vel=0.34
+  beat  2.20  A4   (69)  dur=0.09s  vel=0.28
+  beat  2.47  C#3  (49)  dur=0.28s  vel=0.36
+  beat  2.48  F#5  (78)  dur=0.84s  vel=0.59
+  beat  2.92  A3   (57)  dur=0.09s  vel=0.31
+  beat  3.23  E4   (64)  dur=0.14s  vel=0.32
+  beat  3.67  A5   (81)  dur=0.89s  vel=0.44
+
+--- BAR 85 (t=168.00s) ---
+  beat  0.05  A4   (69)  dur=0.21s  vel=0.22
+  beat  0.45  C#5  (73)  dur=0.12s  vel=0.26
+  beat  0.81  B2   (47)  dur=0.29s  vel=0.38
+  beat  1.19  F#3  (54)  dur=0.17s  vel=0.45
+  beat  1.63  A3   (57)  dur=0.08s  vel=0.37
+  beat  1.94  A5   (81)  dur=1.83s  vel=0.60
+  beat  1.95  C#4  (61)  dur=0.21s  vel=0.41
+  beat  2.34  D#4  (63)  dur=0.20s  vel=0.39
+  beat  2.74  F#4  (66)  dur=0.16s  vel=0.25
+  beat  3.16  A4   (69)  dur=0.18s  vel=0.31
+  beat  3.61  C#5  (73)  dur=0.21s  vel=0.35
+
+--- BAR 86 (t=170.00s) ---
+  beat  0.15  D#5  (75)  dur=0.23s  vel=0.35
+  beat  0.72  C#5  (73)  dur=0.26s  vel=0.18
+  beat  1.43  G#5  (80)  dur=0.68s  vel=0.33
+  beat  1.47  B4   (71)  dur=0.20s  vel=0.22
+  beat  2.52  F#5  (78)  dur=0.93s  vel=0.32
+  beat  2.56  A4   (69)  dur=0.11s  vel=0.09
+
+--- BAR 87 (t=172.00s) ---
+  beat  0.15  E2   (40)  dur=0.62s  vel=0.29
+  beat  0.89  B2   (47)  dur=0.28s  vel=0.25
+  beat  1.47  E5   (76)  dur=0.30s  vel=0.32
+  beat  1.54  E3   (52)  dur=0.20s  vel=0.28
+  beat  1.91  F#5  (78)  dur=0.16s  vel=0.43
+  beat  2.06  G#3  (56)  dur=0.21s  vel=0.28
+  beat  2.20  C#5  (73)  dur=0.20s  vel=0.39
+  beat  2.51  E5   (76)  dur=0.18s  vel=0.46
+  beat  2.60  B3   (59)  dur=0.12s  vel=0.23
+  beat  2.81  B4   (71)  dur=0.18s  vel=0.47
+  beat  2.97  G#3  (56)  dur=0.07s  vel=0.28
+  beat  3.07  C#5  (73)  dur=0.18s  vel=0.47
+  beat  3.35  G#4  (68)  dur=0.17s  vel=0.43
+  beat  3.43  E3   (52)  dur=0.10s  vel=0.32
+  beat  3.65  B4   (71)  dur=0.13s  vel=0.61
+  beat  3.85  B2   (47)  dur=0.16s  vel=0.20
+  beat  3.91  F#4  (66)  dur=0.18s  vel=0.49
+
+--- BAR 88 (t=174.00s) ---
+  beat  0.20  G#4  (68)  dur=0.16s  vel=0.57
+  beat  0.24  E2   (40)  dur=0.38s  vel=0.40
+  beat  0.50  E4   (64)  dur=0.15s  vel=0.50
+  beat  0.67  C#3  (49)  dur=0.26s  vel=0.31
+  beat  0.75  G#4  (68)  dur=0.14s  vel=0.43
+  beat  1.04  D#4  (63)  dur=1.06s  vel=0.59
+  beat  1.17  E3   (52)  dur=0.10s  vel=0.28
+  beat  1.52  G#3  (56)  dur=0.20s  vel=0.37
+  beat  1.96  C#4  (61)  dur=0.18s  vel=0.32
+  beat  2.49  G#3  (56)  dur=0.09s  vel=0.28
+  beat  2.91  C#4  (61)  dur=0.58s  vel=0.46
+  beat  3.01  E3   (52)  dur=0.12s  vel=0.22
+  beat  3.45  C#3  (49)  dur=0.08s  vel=0.24
+  beat  3.98  B3   (59)  dur=0.34s  vel=0.43
+
+--- BAR 89 (t=176.00s) ---
+  beat  0.09  E2   (40)  dur=0.46s  vel=0.35
+  beat  0.72  B2   (47)  dur=0.20s  vel=0.17
+  beat  1.29  E5   (76)  dur=0.25s  vel=0.37
+  beat  1.38  E3   (52)  dur=0.15s  vel=0.14
+  beat  1.72  F#5  (78)  dur=0.16s  vel=0.37
+  beat  1.80  G#3  (56)  dur=0.24s  vel=0.21
+  beat  1.98  C#5  (73)  dur=0.19s  vel=0.35
+  beat  2.31  E5   (76)  dur=0.15s  vel=0.43
+  beat  2.39  B3   (59)  dur=0.12s  vel=0.16
+  beat  2.63  B4   (71)  dur=0.07s  vel=0.39
+  beat  2.75  G#3  (56)  dur=0.07s  vel=0.27
+  beat  2.85  C#5  (73)  dur=0.12s  vel=0.35
+  beat  3.14  G#4  (68)  dur=0.09s  vel=0.33
+  beat  3.19  E3   (52)  dur=0.16s  vel=0.28
+  beat  3.43  B4   (71)  dur=0.09s  vel=0.40
+  beat  3.63  B2   (47)  dur=0.20s  vel=0.17
+  beat  3.71  F#4  (66)  dur=0.20s  vel=0.32
+
+--- BAR 90 (t=178.00s) ---
+  beat  0.11  G#4  (68)  dur=0.14s  vel=0.31
+  beat  0.13  E2   (40)  dur=0.55s  vel=0.31
+  beat  0.46  E4   (64)  dur=0.13s  vel=0.31
+  beat  0.73  C#3  (49)  dur=0.31s  vel=0.20
+  beat  0.75  G#4  (68)  dur=0.29s  vel=0.32
+  beat  1.24  D#4  (63)  dur=1.06s  vel=0.40
+  beat  1.33  E3   (52)  dur=0.10s  vel=0.35
+  beat  1.79  G#3  (56)  dur=0.23s  vel=0.32
+  beat  2.26  C#4  (61)  dur=0.17s  vel=0.32
+  beat  2.74  G#3  (56)  dur=0.07s  vel=0.25
+  beat  3.10  C#4  (61)  dur=0.55s  vel=0.45
+  beat  3.23  E3   (52)  dur=0.09s  vel=0.20
+  beat  3.61  C#3  (49)  dur=0.08s  vel=0.23
+
+--- BAR 91 (t=180.00s) ---
+  beat  0.18  B3   (59)  dur=0.24s  vel=0.35
+  beat  0.30  F#2  (42)  dur=0.61s  vel=0.16
+  beat  0.65  A3   (57)  dur=0.23s  vel=0.33
+  beat  0.90  C#3  (49)  dur=0.30s  vel=0.18
+  beat  1.05  B3   (59)  dur=0.22s  vel=0.35
+  beat  1.46  C#4  (61)  dur=0.77s  vel=0.38
+  beat  1.52  E3   (52)  dur=0.18s  vel=0.35
+  beat  1.92  F#3  (54)  dur=0.17s  vel=0.39
+  beat  2.40  A3   (57)  dur=0.18s  vel=0.29
+  beat  2.88  E4   (64)  dur=0.23s  vel=0.46
+  beat  2.89  F#3  (54)  dur=0.07s  vel=0.28
+  beat  3.27  D#4  (63)  dur=0.26s  vel=0.54
+  beat  3.37  E3   (52)  dur=0.07s  vel=0.21
+  beat  3.70  E4   (64)  dur=0.29s  vel=0.53
+  beat  3.71  C#3  (49)  dur=0.07s  vel=0.24
+
+--- BAR 92 (t=182.00s) ---
+  beat  0.17  G#2  (44)  dur=0.45s  vel=0.35
+  beat  0.17  C#4  (61)  dur=0.53s  vel=0.43
+  beat  0.73  C#3  (49)  dur=0.12s  vel=0.27
+  beat  1.25  E3   (52)  dur=0.07s  vel=0.28
+  beat  1.26  G#4  (68)  dur=1.08s  vel=0.35
+  beat  1.67  G#3  (56)  dur=0.18s  vel=0.23
+  beat  2.11  B3   (59)  dur=0.08s  vel=0.26
+  beat  2.55  G#3  (56)  dur=0.07s  vel=0.18
+  beat  2.92  E4   (64)  dur=0.49s  vel=0.47
+  beat  2.96  E3   (52)  dur=0.07s  vel=0.28
+  beat  3.35  C#3  (49)  dur=0.07s  vel=0.31
+  beat  3.78  A2   (45)  dur=0.65s  vel=0.40
+  beat  3.79  D#4  (63)  dur=0.24s  vel=0.51
+
+--- BAR 93 (t=184.00s) ---
+  beat  0.21  C#4  (61)  dur=0.25s  vel=0.46
+  beat  0.35  E3   (52)  dur=0.41s  vel=0.39
+  beat  0.61  D#4  (63)  dur=0.21s  vel=0.41
+  beat  0.90  F#3  (54)  dur=0.23s  vel=0.39
+  beat  1.03  E4   (64)  dur=0.66s  vel=0.48
+  beat  1.43  A3   (57)  dur=0.16s  vel=0.32
+  beat  1.83  C#4  (61)  dur=0.13s  vel=0.35
+  beat  2.25  G#4  (68)  dur=0.30s  vel=0.47
+  beat  2.33  A3   (57)  dur=0.11s  vel=0.24
+  beat  2.74  F#4  (66)  dur=0.30s  vel=0.46
+  beat  2.75  F#3  (54)  dur=0.09s  vel=0.38
+  beat  3.15  G#4  (68)  dur=0.28s  vel=0.54
+  beat  3.19  E3   (52)  dur=0.07s  vel=0.31
+  beat  3.60  A#2  (46)  dur=0.41s  vel=0.36
+  beat  3.67  E4   (64)  dur=0.55s  vel=0.46
+
+--- BAR 94 (t=186.00s) ---
+  beat  0.23  E3   (52)  dur=0.20s  vel=0.40
+  beat  0.65  C#5  (73)  dur=0.86s  vel=0.47
+  beat  0.68  G#3  (56)  dur=0.10s  vel=0.24
+  beat  1.05  C#4  (61)  dur=0.11s  vel=0.37
+  beat  1.48  C#3  (49)  dur=0.31s  vel=0.49
+  beat  1.92  F#3  (54)  dur=0.22s  vel=0.48
+  beat  2.31  A#4  (70)  dur=0.22s  vel=0.52
+  beat  2.36  A#3  (58)  dur=0.12s  vel=0.26
+  beat  2.68  C#5  (73)  dur=0.17s  vel=0.49
+  beat  2.81  E4   (64)  dur=0.09s  vel=0.37
+  beat  2.91  A#4  (70)  dur=0.17s  vel=0.41
+  beat  3.16  E3   (52)  dur=0.27s  vel=0.50
+  beat  3.21  G#4  (68)  dur=0.45s  vel=0.54
+  beat  3.59  A#3  (58)  dur=0.22s  vel=0.39
+
+--- BAR 95 (t=188.00s) ---
+  beat  0.02  C#4  (61)  dur=0.13s  vel=0.43
+  beat  0.05  E5   (76)  dur=0.68s  vel=0.61
+  beat  0.41  G#4  (68)  dur=0.12s  vel=0.39
+  beat  0.77  F#3  (54)  dur=0.26s  vel=0.59
+  beat  1.17  C#4  (61)  dur=0.20s  vel=0.53
+  beat  1.50  C#5  (73)  dur=0.19s  vel=0.60
+  beat  1.58  E4   (64)  dur=0.13s  vel=0.46
+  beat  1.83  E5   (76)  dur=0.17s  vel=0.61
+  beat  1.94  A#4  (70)  dur=0.14s  vel=0.37
+  beat  2.10  C#5  (73)  dur=0.22s  vel=0.62
+  beat  2.35  A#3  (58)  dur=0.33s  vel=0.39
+  beat  2.41  G#5  (80)  dur=0.63s  vel=0.69
+  beat  2.77  E4   (64)  dur=0.22s  vel=0.50
+  beat  3.15  G#4  (68)  dur=0.19s  vel=0.48
+  beat  3.51  F#5  (78)  dur=0.29s  vel=0.69
+  beat  3.52  C#5  (73)  dur=0.13s  vel=0.50
+  beat  3.92  C#4  (61)  dur=0.28s  vel=0.54
+  beat  3.94  G#5  (80)  dur=0.62s  vel=0.67
+
+--- BAR 96 (t=190.00s) ---
+  beat  0.29  F#4  (66)  dur=0.25s  vel=0.42
+  beat  0.67  A#4  (70)  dur=0.14s  vel=0.46
+  beat  0.99  F#5  (78)  dur=0.32s  vel=0.65
+  beat  1.00  E5   (76)  dur=0.04s  vel=0.46
+  beat  1.42  A#3  (58)  dur=0.28s  vel=0.52
+  beat  1.44  G#5  (80)  dur=0.68s  vel=0.68
+  beat  1.83  E4   (64)  dur=0.22s  vel=0.49
+  beat  2.22  G#4  (68)  dur=0.16s  vel=0.48
+  beat  2.64  F#5  (78)  dur=0.38s  vel=0.68
+  beat  2.66  C#5  (73)  dur=0.17s  vel=0.34
+  beat  3.23  C#4  (61)  dur=0.57s  vel=0.35
+  beat  3.23  G#5  (80)  dur=0.47s  vel=0.61
+  beat  3.88  F#5  (78)  dur=0.89s  vel=0.51
+  beat  3.90  F#4  (66)  dur=0.36s  vel=0.28
+
+--- BAR 97 (t=192.00s) ---
+  beat  0.57  A#4  (70)  dur=0.22s  vel=0.24
+  beat  1.40  G#5  (80)  dur=0.78s  vel=0.45
+  beat  1.48  E5   (76)  dur=0.08s  vel=0.13
+  beat  2.58  A5   (81)  dur=1.23s  vel=0.40
+  beat  2.69  C#4  (61)  dur=0.58s  vel=0.15
+  beat  3.17  E4   (64)  dur=0.36s  vel=0.27
+  beat  3.58  A4   (69)  dur=0.16s  vel=0.19
+  beat  3.92  C#5  (73)  dur=0.18s  vel=0.19
+
+--- BAR 98 (t=194.00s) ---
+  beat  0.32  E5   (76)  dur=0.10s  vel=0.21
+  beat  0.58  F#5  (78)  dur=0.15s  vel=0.28
+  beat  0.91  G#5  (80)  dur=1.13s  vel=0.44
+  beat  1.27  D#5  (75)  dur=0.10s  vel=0.27
+  beat  1.63  B4   (71)  dur=0.30s  vel=0.35
+  beat  1.90  G#4  (68)  dur=0.22s  vel=0.19
+  beat  2.23  D#4  (63)  dur=0.17s  vel=0.32
+  beat  2.60  B3   (59)  dur=0.10s  vel=0.23
+  beat  2.92  F#5  (78)  dur=1.08s  vel=0.49
+  beat  2.98  A3   (57)  dur=0.42s  vel=0.14
+  beat  3.30  C#4  (61)  dur=0.46s  vel=0.29
+  beat  3.61  F#4  (66)  dur=0.16s  vel=0.17
+  beat  3.95  A4   (69)  dur=0.18s  vel=0.20
+
+--- BAR 99 (t=196.00s) ---
+  beat  0.31  C#5  (73)  dur=0.10s  vel=0.22
+  beat  0.60  D#5  (75)  dur=0.08s  vel=0.30
+  beat  0.90  E5   (76)  dur=0.62s  vel=0.33
+  beat  1.31  B4   (71)  dur=0.25s  vel=0.24
+  beat  1.59  G#4  (68)  dur=0.19s  vel=0.11
+  beat  1.85  E4   (64)  dur=0.13s  vel=0.20
+  beat  2.19  B3   (59)  dur=0.10s  vel=0.20
+  beat  2.52  G#3  (56)  dur=0.07s  vel=0.27
+  beat  3.09  A5   (81)  dur=0.62s  vel=0.50
+  beat  3.19  C#4  (61)  dur=0.83s  vel=0.26
+  beat  3.57  E4   (64)  dur=0.16s  vel=0.30
+  beat  3.92  A4   (69)  dur=0.10s  vel=0.23
+
+--- BAR 100 (t=198.00s) ---
+  beat  0.27  C#5  (73)  dur=0.13s  vel=0.26
+  beat  0.31  B5   (83)  dur=0.26s  vel=0.80
+  beat  0.35  E5   (76)  dur=0.08s  vel=0.35
+  beat  0.79  A4   (69)  dur=0.11s  vel=0.17
+  beat  0.92  C#6  (85)  dur=0.28s  vel=0.59
+  beat  1.10  E4   (64)  dur=0.06s  vel=0.25
+  beat  1.47  A5   (81)  dur=0.32s  vel=0.58
+  beat  1.53  B3   (59)  dur=0.48s  vel=0.28
+  beat  1.84  D#4  (63)  dur=0.17s  vel=0.34
+  beat  1.98  G#5  (80)  dur=0.32s  vel=0.61
+  beat  2.16  G#4  (68)  dur=0.14s  vel=0.35
+  beat  2.46  D#5  (75)  dur=0.55s  vel=0.47
+  beat  2.49  A5   (81)  dur=0.29s  vel=0.66
+  beat  2.52  B4   (71)  dur=0.10s  vel=0.45
+  beat  2.83  G#4  (68)  dur=0.16s  vel=0.35
+  beat  3.01  G#5  (80)  dur=0.94s  vel=0.65
+  beat  3.14  D#4  (63)  dur=0.14s  vel=0.32
+  beat  3.47  A3   (57)  dur=0.39s  vel=0.31
+  beat  3.50  C#5  (73)  dur=1.13s  vel=0.46
+  beat  3.81  C#4  (61)  dur=0.29s  vel=0.41
+
+--- BAR 101 (t=200.00s) ---
+  beat  0.17  F#4  (66)  dur=0.14s  vel=0.30
+  beat  0.56  A4   (69)  dur=0.13s  vel=0.24
+  beat  0.65  F#5  (78)  dur=1.08s  vel=0.57
+  beat  0.97  F#4  (66)  dur=0.16s  vel=0.29
+  beat  1.27  C#4  (61)  dur=0.06s  vel=0.32
+  beat  1.57  G#3  (56)  dur=0.41s  vel=0.41
+  beat  1.58  B4   (71)  dur=0.68s  vel=0.52
+  beat  1.94  B3   (59)  dur=0.16s  vel=0.35
+  beat  2.29  E4   (64)  dur=0.06s  vel=0.34
+  beat  2.51  E5   (76)  dur=0.90s  vel=0.57
+  beat  2.57  G#4  (68)  dur=0.07s  vel=0.30
+  beat  2.90  E4   (64)  dur=0.13s  vel=0.32
+  beat  3.15  B3   (59)  dur=0.07s  vel=0.37
+  beat  3.62  F#3  (54)  dur=0.90s  vel=0.53
+
+--- BAR 102 (t=202.00s) ---
+  beat  0.08  A3   (57)  dur=0.18s  vel=0.36
+  beat  0.17  D5   (74)  dur=0.37s  vel=0.65
+  beat  0.47  D4   (62)  dur=0.08s  vel=0.29
+  beat  0.79  E5   (76)  dur=0.33s  vel=0.61
+  beat  0.82  A4   (69)  dur=1.15s  vel=0.37
+  beat  0.85  F#4  (66)  dur=0.14s  vel=0.32
+  beat  1.22  D4   (62)  dur=0.14s  vel=0.32
+  beat  1.33  F#5  (78)  dur=0.22s  vel=0.53
+  beat  1.43  A3   (57)  dur=0.07s  vel=0.41
+  beat  1.88  E3   (52)  dur=0.80s  vel=0.58
+  beat  1.90  D#5  (75)  dur=0.07s  vel=0.16
+  beat  1.96  D5   (74)  dur=0.29s  vel=0.61
+  beat  2.29  G#3  (56)  dur=0.19s  vel=0.34
+  beat  2.48  C#5  (73)  dur=0.26s  vel=0.57
+  beat  2.61  C#4  (61)  dur=0.15s  vel=0.43
+  beat  2.96  G#4  (68)  dur=0.53s  vel=0.42
+  beat  2.96  D5   (74)  dur=0.28s  vel=0.65
+  beat  2.99  E4   (64)  dur=0.16s  vel=0.46
+  beat  3.27  C#4  (61)  dur=0.19s  vel=0.44
+  beat  3.48  C#5  (73)  dur=0.75s  vel=0.56
+  beat  3.60  G#3  (56)  dur=0.18s  vel=0.45
+  beat  3.90  D3   (50)  dur=0.34s  vel=0.50
+  beat  3.96  F#4  (66)  dur=0.98s  vel=0.46
+
+--- BAR 103 (t=204.00s) ---
+  beat  0.28  F#3  (54)  dur=0.23s  vel=0.49
+  beat  0.56  B3   (59)  dur=0.13s  vel=0.38
+  beat  0.85  B4   (71)  dur=1.07s  vel=0.64
+  beat  0.93  D4   (62)  dur=0.13s  vel=0.39
+  beat  1.25  B3   (59)  dur=0.08s  vel=0.24
+  beat  1.40  F#3  (54)  dur=0.06s  vel=0.46
+  beat  1.79  E4   (64)  dur=0.93s  vel=0.50
+  beat  1.84  C#3  (49)  dur=0.73s  vel=0.41
+  beat  2.19  E3   (52)  dur=0.17s  vel=0.39
+  beat  2.46  A3   (57)  dur=0.14s  vel=0.31
+  beat  2.84  C#4  (61)  dur=0.12s  vel=0.37
+  beat  2.91  A4   (69)  dur=0.92s  vel=0.46
+  beat  3.25  A3   (57)  dur=0.18s  vel=0.31
+  beat  3.57  E3   (52)  dur=0.10s  vel=0.36
+
+--- BAR 104 (t=206.00s) ---
+  beat  0.06  D4   (62)  dur=0.77s  vel=0.57
+  beat  0.08  B2   (47)  dur=0.43s  vel=0.49
+  beat  0.58  F3   (53)  dur=0.15s  vel=0.53
+  beat  0.62  G#4  (68)  dur=0.30s  vel=0.60
+  beat  0.81  G#3  (56)  dur=0.10s  vel=0.34
+  beat  1.09  A4   (69)  dur=0.26s  vel=0.59
+  beat  1.15  B3   (59)  dur=0.26s  vel=0.41
+  beat  1.46  G#3  (56)  dur=0.15s  vel=0.35
+  beat  1.54  G#4  (68)  dur=0.30s  vel=0.64
+  beat  1.68  F3   (53)  dur=0.05s  vel=0.52
+  beat  2.04  C#4  (61)  dur=0.93s  vel=0.45
+  beat  2.05  C#5  (73)  dur=0.40s  vel=0.50
+  beat  2.08  A2   (45)  dur=0.41s  vel=0.46
+  beat  2.46  C#3  (49)  dur=0.24s  vel=0.39
+  beat  2.58  A4   (69)  dur=0.37s  vel=0.50
+  beat  2.79  F#3  (54)  dur=0.11s  vel=0.41
+  beat  3.18  A3   (57)  dur=0.20s  vel=0.27
+  beat  3.24  F#4  (66)  dur=0.88s  vel=0.50
+  beat  3.60  F#3  (54)  dur=0.17s  vel=0.46
+  beat  3.91  C#3  (49)  dur=0.07s  vel=0.31
+
+--- BAR 105 (t=208.00s) ---
+  beat  0.23  B3   (59)  dur=1.51s  vel=0.54
+  beat  0.28  G#2  (44)  dur=1.03s  vel=0.38
+  beat  0.71  B2   (47)  dur=0.30s  vel=0.28
+  beat  0.94  E4   (64)  dur=0.53s  vel=0.61
+  beat  1.26  E3   (52)  dur=0.24s  vel=0.39
+  beat  1.76  G#3  (56)  dur=0.16s  vel=0.28
+  beat  1.90  F#4  (66)  dur=0.50s  vel=0.50
+  beat  2.33  E3   (52)  dur=0.19s  vel=0.42
+  beat  2.63  E4   (64)  dur=0.76s  vel=0.55
+  beat  2.87  B2   (47)  dur=0.14s  vel=0.28
+  beat  3.66  A4   (69)  dur=1.19s  vel=0.39
+  beat  3.69  F#2  (42)  dur=0.51s  vel=0.23
+
+--- BAR 106 (t=210.00s) ---
+  beat  0.31  C#3  (49)  dur=0.21s  vel=0.33
+  beat  0.85  E3   (52)  dur=0.16s  vel=0.36
+  beat  1.23  F#3  (54)  dur=0.26s  vel=0.39
+  beat  1.67  A3   (57)  dur=0.10s  vel=0.34
+  beat  2.02  B3   (59)  dur=0.15s  vel=0.34
+  beat  2.36  C#4  (61)  dur=0.27s  vel=0.39
+  beat  2.73  E4   (64)  dur=0.20s  vel=0.33
+  beat  3.06  A4   (69)  dur=0.20s  vel=0.37
+  beat  3.40  B4   (71)  dur=0.15s  vel=0.50
+  beat  3.70  C#5  (73)  dur=0.13s  vel=0.41
+
+--- BAR 107 (t=212.00s) ---
+  beat  0.01  E5   (76)  dur=0.20s  vel=0.53
+  beat  0.38  A5   (81)  dur=0.18s  vel=0.54
+  beat  0.69  B5   (83)  dur=0.18s  vel=0.72
+  beat  0.99  C#6  (85)  dur=0.19s  vel=0.48
+  beat  1.34  E6   (88)  dur=0.18s  vel=0.48
+  beat  1.64  C#6  (85)  dur=0.18s  vel=0.35
+  beat  1.96  B5   (83)  dur=0.15s  vel=0.61
+  beat  2.33  A5   (81)  dur=0.06s  vel=0.35
+  beat  2.63  E5   (76)  dur=0.17s  vel=0.20
+  beat  2.93  C#5  (73)  dur=0.18s  vel=0.32
+  beat  3.31  B4   (71)  dur=0.13s  vel=0.34
+  beat  3.70  A4   (69)  dur=0.08s  vel=0.24
+
+--- BAR 108 (t=214.00s) ---
+  beat  0.15  E4   (64)  dur=0.32s  vel=0.31
+  beat  0.74  G#4  (68)  dur=1.08s  vel=0.46
+  beat  0.83  B1   (35)  dur=0.24s  vel=0.33
+  beat  1.44  B2   (47)  dur=0.07s  vel=0.19
+  beat  1.90  D#3  (51)  dur=0.19s  vel=0.36
+  beat  2.30  G#3  (56)  dur=0.12s  vel=0.31
+  beat  2.70  B3   (59)  dur=0.06s  vel=0.42
+  beat  2.98  D#4  (63)  dur=0.15s  vel=0.39
+  beat  3.34  G#4  (68)  dur=0.07s  vel=0.38
+  beat  3.65  B4   (71)  dur=0.07s  vel=0.47
+  beat  3.98  D#5  (75)  dur=0.20s  vel=0.36
+
+--- BAR 109 (t=216.00s) ---
+  beat  0.32  G#5  (80)  dur=0.17s  vel=0.43
+  beat  0.69  B5   (83)  dur=0.07s  vel=0.57
+  beat  1.06  B4   (71)  dur=0.26s  vel=0.35
+  beat  1.47  F#4  (66)  dur=1.02s  vel=0.36
+  beat  1.51  B1   (35)  dur=0.17s  vel=0.24
+  beat  1.95  B2   (47)  dur=0.07s  vel=0.19
+  beat  2.34  D#3  (51)  dur=0.10s  vel=0.21
+  beat  2.67  A3   (57)  dur=0.15s  vel=0.19
+  beat  3.09  B3   (59)  dur=0.59s  vel=0.17
+  beat  3.35  D#4  (63)  dur=0.09s  vel=0.28
+  beat  3.75  A4   (69)  dur=0.06s  vel=0.28
+
+--- BAR 110 (t=218.00s) ---
+  beat  0.13  B4   (71)  dur=0.06s  vel=0.28
+  beat  0.42  D#5  (75)  dur=0.08s  vel=0.28
+  beat  0.91  A5   (81)  dur=0.23s  vel=0.20
+  beat  1.40  B5   (83)  dur=0.15s  vel=0.34
+  beat  1.98  B4   (71)  dur=0.07s  vel=0.30
+  beat  2.70  E4   (64)  dur=0.40s  vel=0.25
+  beat  2.71  E2   (40)  dur=0.63s  vel=0.24
+  beat  3.58  B2   (47)  dur=0.25s  vel=0.16
+
+--- BAR 111 (t=220.00s) ---
+  beat  0.54  E6   (88)  dur=0.30s  vel=0.23
+  beat  0.57  E3   (52)  dur=0.25s  vel=0.20
+  beat  1.14  F#6  (90)  dur=0.09s  vel=0.24
+  beat  1.31  G#3  (56)  dur=0.21s  vel=0.14
+  beat  1.48  C#6  (85)  dur=0.22s  vel=0.30
+  beat  1.89  E6   (88)  dur=0.16s  vel=0.26
+  beat  1.96  B3   (59)  dur=0.14s  vel=0.09
+  beat  2.28  B5   (83)  dur=0.10s  vel=0.46
+  beat  2.37  G#3  (56)  dur=0.09s  vel=0.22
+  beat  2.58  C#6  (85)  dur=0.19s  vel=0.33
+  beat  2.92  G#5  (80)  dur=0.17s  vel=0.35
+  beat  2.94  E3   (52)  dur=0.10s  vel=0.29
+  beat  3.27  B5   (83)  dur=0.10s  vel=0.57
+  beat  3.44  B2   (47)  dur=0.10s  vel=0.12
+  beat  3.58  F#5  (78)  dur=0.18s  vel=0.40
+  beat  3.92  G#5  (80)  dur=0.19s  vel=0.44
+  beat  3.94  E2   (40)  dur=0.44s  vel=0.27
+
+--- BAR 112 (t=222.00s) ---
+  beat  0.30  E5   (76)  dur=0.23s  vel=0.35
+  beat  0.54  C#3  (49)  dur=0.24s  vel=0.22
+  beat  0.65  G#5  (80)  dur=0.27s  vel=0.32
+  beat  1.15  D#5  (75)  dur=1.19s  vel=0.36
+  beat  1.23  E3   (52)  dur=0.10s  vel=0.10
+  beat  1.63  G#3  (56)  dur=0.23s  vel=0.16
+  beat  2.13  C#4  (61)  dur=0.21s  vel=0.21
+  beat  2.69  G#3  (56)  dur=0.21s  vel=0.28
+  beat  3.23  C#5  (73)  dur=0.78s  vel=0.31
+  beat  3.28  E3   (52)  dur=0.20s  vel=0.25
+  beat  3.84  C#3  (49)  dur=0.07s  vel=0.30
+
+--- BAR 113 (t=224.00s) ---
+  beat  0.58  B4   (71)  dur=0.74s  vel=0.35
+  beat  0.63  E2   (40)  dur=0.39s  vel=0.30
+  beat  1.26  B2   (47)  dur=0.17s  vel=0.27
+  beat  1.85  E5   (76)  dur=0.23s  vel=0.28
+  beat  1.91  E3   (52)  dur=0.15s  vel=0.20
+  beat  2.22  F#5  (78)  dur=0.09s  vel=0.30
+  beat  2.40  G#3  (56)  dur=0.19s  vel=0.13
+  beat  2.51  C#5  (73)  dur=0.16s  vel=0.28
+  beat  2.84  E5   (76)  dur=0.16s  vel=0.32
+  beat  2.92  B3   (59)  dur=0.14s  vel=0.12
+  beat  3.18  B4   (71)  dur=0.08s  vel=0.31
+  beat  3.34  G#3  (56)  dur=0.08s  vel=0.22
+  beat  3.41  C#5  (73)  dur=0.16s  vel=0.33
+  beat  3.73  G#4  (68)  dur=0.16s  vel=0.30
+  beat  3.80  E3   (52)  dur=0.09s  vel=0.20
+
+--- BAR 114 (t=226.00s) ---
+  beat  0.04  B4   (71)  dur=0.14s  vel=0.40
+  beat  0.27  B2   (47)  dur=0.14s  vel=0.10
+  beat  0.35  F#4  (66)  dur=0.20s  vel=0.25
+  beat  0.70  G#4  (68)  dur=0.15s  vel=0.28
+  beat  0.74  E2   (40)  dur=0.49s  vel=0.29
+  beat  1.07  E4   (64)  dur=0.17s  vel=0.31
+  beat  1.35  G#4  (68)  dur=0.27s  vel=0.25
+  beat  1.35  C#3  (49)  dur=0.29s  vel=0.20
+  beat  1.85  D#4  (63)  dur=1.33s  vel=0.35
+  beat  1.98  E3   (52)  dur=0.11s  vel=0.20
+  beat  2.44  G#3  (56)  dur=0.23s  vel=0.17
+  beat  3.00  C#4  (61)  dur=0.19s  vel=0.14
+  beat  3.59  G#3  (56)  dur=0.11s  vel=0.15
+
+--- BAR 115 (t=228.00s) ---
+  beat  0.30  E3   (52)  dur=0.16s  vel=0.24
+  beat  0.30  C#4  (61)  dur=0.25s  vel=0.28
+  beat  1.00  C#3  (49)  dur=0.08s  vel=0.16
+  beat  2.05  E2   (40)  dur=1.23s  vel=0.36
+  beat  2.46  B3   (59)  dur=0.38s  vel=0.27
+  beat  2.86  E3   (52)  dur=0.17s  vel=0.25
+  beat  3.40  B2   (47)  dur=0.59s  vel=0.28
+  beat  3.77  C#4  (61)  dur=0.23s  vel=0.33
+
+--- BAR 116 (t=230.00s) ---
+  beat  0.09  G#3  (56)  dur=0.08s  vel=0.33
+  beat  0.52  E3   (52)  dur=0.35s  vel=0.31
+  beat  0.90  E4   (64)  dur=0.14s  vel=0.35
+  beat  1.22  B3   (59)  dur=0.08s  vel=0.20
+  beat  1.43  G#3  (56)  dur=0.25s  vel=0.28
+  beat  1.77  F#4  (66)  dur=0.20s  vel=0.28
+  beat  2.04  C#4  (61)  dur=0.07s  vel=0.33
+  beat  2.40  E3   (52)  dur=0.23s  vel=0.32
+  beat  2.73  B4   (71)  dur=0.10s  vel=0.33
+  beat  2.98  E4   (64)  dur=0.07s  vel=0.31
+  beat  3.29  B3   (59)  dur=0.26s  vel=0.28
+  beat  3.60  C#5  (73)  dur=0.20s  vel=0.28
+  beat  3.89  G#4  (68)  dur=0.08s  vel=0.22
+
+--- BAR 117 (t=232.00s) ---
+  beat  0.21  E4   (64)  dur=0.24s  vel=0.23
+  beat  0.52  E5   (76)  dur=0.09s  vel=0.25
+  beat  0.79  B4   (71)  dur=0.08s  vel=0.23
+  beat  1.06  G#4  (68)  dur=0.19s  vel=0.21
+  beat  1.38  F#5  (78)  dur=0.18s  vel=0.31
+  beat  1.67  C#5  (73)  dur=0.07s  vel=0.33
+  beat  2.02  E4   (64)  dur=0.10s  vel=0.24
+  beat  2.29  B5   (83)  dur=0.17s  vel=0.57
+  beat  2.64  E5   (76)  dur=0.07s  vel=0.19
+  beat  2.91  B4   (71)  dur=0.25s  vel=0.24
+  beat  3.21  C#6  (85)  dur=0.16s  vel=0.28
+  beat  3.45  G#5  (80)  dur=0.08s  vel=0.35
+  beat  3.80  E5   (76)  dur=0.22s  vel=0.20
+
+--- BAR 118 (t=234.00s) ---
+  beat  0.10  E6   (88)  dur=0.15s  vel=0.34
+  beat  0.43  B5   (83)  dur=0.07s  vel=0.45
+  beat  0.74  G#5  (80)  dur=0.28s  vel=0.22
+  beat  1.06  F#6  (90)  dur=0.10s  vel=0.35
+  beat  1.42  C#6  (85)  dur=0.15s  vel=0.17
+  beat  1.86  G#6  (92)  dur=0.42s  vel=0.22
+  beat  1.89  E6   (88)  dur=0.37s  vel=0.14
+  beat  1.89  B5   (83)  dur=0.34s  vel=0.28
+  beat  1.90  E5   (76)  dur=0.28s  vel=0.12
+  beat  3.42  G#6  (92)  dur=0.68s  vel=0.27
+  beat  3.44  E5   (76)  dur=0.63s  vel=0.09
+  beat  3.44  B5   (83)  dur=0.65s  vel=0.23
+  beat  3.44  E6   (88)  dur=0.43s  vel=0.17
+
+--- BAR 119 (t=236.00s) ---
+  beat  2.61  B5   (83)  dur=0.15s  vel=0.21
+  beat  2.62  G#6  (92)  dur=0.29s  vel=0.11
+  beat  2.63  E5   (76)  dur=0.13s  vel=0.06
+  beat  2.63  E6   (88)  dur=0.16s  vel=0.11
+
+--- BAR 120 (t=238.00s) ---
+  beat  1.76  E4   (64)  dur=0.17s  vel=0.17
+  beat  1.76  E3   (52)  dur=0.14s  vel=0.13
+  beat  1.77  E2   (40)  dur=0.15s  vel=0.20
