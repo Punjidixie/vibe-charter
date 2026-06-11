@@ -79,3 +79,5 @@ Every push to `main` triggers `.github/workflows/deploy.yml`, which builds with 
 - **Just For Today** and **Waltz For Tomorrow** composed by Punjidixie.
 - **Arabesque No. 1** and **Nocturne Op. 9 No. 2** are public-domain piano works by Debussy and Chopin.
 - Charts curated by Claude (Anthropic) inside the Cursor IDE.
+
+<!-- deploy: 2026-06-11T15:20:22Z -->
