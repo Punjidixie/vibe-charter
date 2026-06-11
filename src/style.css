@@ -512,7 +512,12 @@ kbd {
 }
 
 /* HUD */
-.hud {
+/* Both selectors below intentionally include `#overlay >` to outrank the
+ * `#overlay > *` rule above (specificity 1,0,0), which would otherwise force
+ * pointer-events: auto on these viewport-spanning overlays and swallow every
+ * tap before it reaches the canvas. Interactive HUD children that need to
+ * receive events (e.g. .hud__seek--debug) still opt in explicitly. */
+#overlay > .hud {
   position: absolute;
   inset: 0;
   pointer-events: none;
@@ -787,7 +792,8 @@ kbd {
 }
 
 /* Resume countdown ("Ready" -> "Go!") shown after Continue is pressed. */
-.resume {
+/* See the .hud rule above re: `#overlay >` for the specificity bump. */
+#overlay > .resume {
   position: absolute;
   inset: 0;
   display: flex;
