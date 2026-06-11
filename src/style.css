@@ -717,10 +717,9 @@ kbd {
   .hud__pause { padding: 10px; }
 }
 .hud__seek--locked .hud__seek-bar { cursor: default; }
-.hud__seek--locked .hud__seek-bar:hover .hud__seek-knob {
-  background: var(--ink);
-  box-shadow: 0 0 12px rgba(255, 247, 220, 0.5);
-}
+/* Hide the knob entirely in normal mode so the bar doesn't look draggable.
+ * The fill alone still communicates progress. */
+.hud__seek--locked .hud__seek-knob { display: none; }
 
 .hud__seek-time {
   min-width: 38px;
