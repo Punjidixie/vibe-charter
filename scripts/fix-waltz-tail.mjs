@@ -1,11 +1,12 @@
 /**
  * Surgical fix for Waltz For Tomorrow: the last two String Ensemble chords
- * on track 23 are 0.5 s / 1.1 s ahead of the 1.2 s waltz-bar grid, and
- * their durations were trimmed to 0.4 s. Push them back onto the grid
- * (136.000 s and 137.200 s) and restore the 0.6 s duration.
+ * on track 23 were 0.1 s ahead of the celesta line (135.5 / 136.1 instead
+ * of the celesta's 135.6 / 136.2). Their original 0.4 s duration is
+ * preserved.
  *
- * Idempotent: rerunning is safe because we re-snap only chords whose
- * timing matches the *broken* values within a millisecond.
+ * Idempotent: rerunning is safe because we re-snap any chord whose timing
+ * matches one of the known prior positions (original misedit OR a previous
+ * overcorrection that briefly snapped them to the 1.2 s bar grid).
  */
 import { readFileSync, writeFileSync, copyFileSync, existsSync } from "node:fs";
 import { createRequire } from "node:module";
@@ -23,10 +24,12 @@ if (!existsSync(BAK)) {
 
 const midi = new Midi(readFileSync(SRC));
 
-// Fix table: { old onset (s), new onset (s), new duration (s) }
+// Fix table: each entry maps any known prior onset (originally 135.5/136.1
+// or the briefly-applied 136.0/137.2) to the final celesta-aligned target
+// at 135.6 / 136.2, with the original 0.4 s duration.
 const FIXES = [
-  { from: 135.5, to: 136.0, dur: 0.6 },
-  { from: 136.1, to: 137.2, dur: 0.6 },
+  { fromAny: [135.5, 136.0], to: 135.6, dur: 0.4 },
+  { fromAny: [136.1, 137.2], to: 136.2, dur: 0.4 },
 ];
 const TIME_EPS = 0.005;
 
@@ -37,18 +40,21 @@ if (!stringTrack || stringTrack.name !== "String Ensemble") {
 
 let touched = 0;
 for (const fix of FIXES) {
-  const group = stringTrack.notes.filter((n) => Math.abs(n.time - fix.from) < TIME_EPS);
+  const group = stringTrack.notes.filter((n) =>
+    fix.fromAny.some((f) => Math.abs(n.time - f) < TIME_EPS),
+  );
   if (group.length === 0) {
-    console.log(`  skip ${fix.from.toFixed(3)}s -> ${fix.to.toFixed(3)}s : no notes found (already fixed?)`);
+    console.log(`  skip -> ${fix.to.toFixed(3)}s : no notes found (already at target?)`);
     continue;
   }
+  const fromActual = group[0].time;
   for (const n of group) {
     n.time = fix.to;
     n.duration = fix.dur;
     touched++;
   }
   console.log(
-    `  moved ${group.length} notes  ${fix.from.toFixed(3)}s -> ${fix.to.toFixed(3)}s  dur=${fix.dur}s`,
+    `  moved ${group.length} notes  ${fromActual.toFixed(3)}s -> ${fix.to.toFixed(3)}s  dur=${fix.dur}s`,
   );
 }
 
