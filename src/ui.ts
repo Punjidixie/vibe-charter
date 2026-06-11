@@ -6,7 +6,7 @@ const VALID_SONGS: ReadonlySet<SongId> = new Set(
 );
 import { computeAccuracy, computeGrade } from "./engine";
 
-const STORAGE_KEY = "arabesque-rhythm:settings";
+const STORAGE_KEY = "vibe-charter:settings";
 
 const clamp01 = (v: unknown, fallback: number): number => {
   if (typeof v !== "number" || !isFinite(v)) return fallback;
@@ -40,8 +40,8 @@ export function loadSettings(): Settings {
           parsed.song && VALID_SONGS.has(parsed.song as SongId)
             ? (parsed.song as SongId)
             : "arabesque",
-        midiVolume: clamp01(parsed.midiVolume, 0.85),
-        backingVolume: clamp01(parsed.backingVolume, 0.55),
+        midiVolume: clamp01(parsed.midiVolume, 1.0),
+        backingVolume: clamp01(parsed.backingVolume, 0.7),
         noteSpeed: clampSpeed(parsed.noteSpeed),
         debugMode: parsed.debugMode === true,
       };
@@ -54,8 +54,8 @@ export function loadSettings(): Settings {
     difficulty: "normal",
     source: "curated",
     song: "arabesque",
-    midiVolume: 0.85,
-    backingVolume: 0.55,
+    midiVolume: 1.0,
+    backingVolume: 0.7,
     noteSpeed: 10,
     debugMode: false,
   };

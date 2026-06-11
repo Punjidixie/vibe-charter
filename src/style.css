@@ -40,6 +40,12 @@ body {
   inset: 0;
   display: block;
   transition: filter 0.35s ease, opacity 0.35s ease;
+  /* Prevent iOS gestures (double-tap zoom, scroll, callout) from eating our
+     pointer events on the canvas. */
+  touch-action: none;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
 }
 
 /* When the player is on a menu/loading/results screen we blur the live

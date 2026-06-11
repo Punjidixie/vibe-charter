@@ -104,13 +104,26 @@ export class InputJudge {
     const lane = KEY_FOR_LANE.indexOf(e.key.toLowerCase() as typeof KEY_FOR_LANE[number]);
     if (lane < 0) return;
     e.preventDefault();
-    this.held[lane] = true;
-    for (const fn of this.keyListeners) fn(lane as 0 | 1 | 2 | 3);
+    this.pressLane(lane as 0 | 1 | 2 | 3);
   }
 
   private onKeyUp(e: KeyboardEvent): void {
     const lane = KEY_FOR_LANE.indexOf(e.key.toLowerCase() as typeof KEY_FOR_LANE[number]);
     if (lane < 0) return;
+    this.releaseLane(lane as 0 | 1 | 2 | 3);
+  }
+
+  /**
+   * Trigger a hit on a lane from a non-keyboard source (e.g. a pointer/touch
+   * on the canvas). Mirrors what onKeyDown does so judgment is identical.
+   */
+  pressLane(lane: 0 | 1 | 2 | 3): void {
+    this.held[lane] = true;
+    for (const fn of this.keyListeners) fn(lane);
+  }
+
+  /** Symmetric to pressLane: clears the held state for visuals. */
+  releaseLane(lane: 0 | 1 | 2 | 3): void {
     this.held[lane] = false;
   }
 

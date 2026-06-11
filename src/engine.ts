@@ -42,8 +42,14 @@ export class GameEngine {
   private input: InputJudge;
   private audio: AudioEngine;
   private renderer: Renderer;
+  private canvas: HTMLCanvasElement;
   private listeners: ((e: EngineEvent) => void)[] = [];
   private finishedFired = false;
+  /** Active pointer-id -> lane mapping, so multi-touch releases the right lane. */
+  private pointerLanes = new Map<number, 0 | 1 | 2 | 3>();
+  private pointerAttached = false;
+  private boundPointerDown = (e: PointerEvent) => this.onPointerDown(e);
+  private boundPointerEnd = (e: PointerEvent) => this.onPointerEnd(e);
 
   constructor(
     canvas: HTMLCanvasElement,
@@ -51,6 +57,7 @@ export class GameEngine {
     settings: Settings,
     audio: AudioEngine,
   ) {
+    this.canvas = canvas;
     this.audio = audio;
     this.score = {
       score: 0,
@@ -82,6 +89,7 @@ export class GameEngine {
   async start(): Promise<void> {
     await this.audio.resume();
     this.input.attach();
+    this.attachPointerInput();
     this.audio.startSong(this.chart.background);
     this.running = true;
     this.startedAt = performance.now();
@@ -95,6 +103,7 @@ export class GameEngine {
     this.paused = false;
     if (this.rafId) cancelAnimationFrame(this.rafId);
     this.input.detach();
+    this.detachPointerInput();
     this.audio.stopSong();
   }
 
@@ -109,6 +118,7 @@ export class GameEngine {
     this.running = false;
     if (this.rafId) cancelAnimationFrame(this.rafId);
     this.input.detach();
+    this.detachPointerInput();
     this.pauseStartedAt = performance.now();
     // Fire-and-forget; ac.suspend resolves quickly.
     void this.audio.suspend();
@@ -128,6 +138,7 @@ export class GameEngine {
     this.startedAt += pauseDur;
     this.lastFrame = performance.now();
     this.input.attach();
+    this.attachPointerInput();
     this.running = true;
     this.rafId = requestAnimationFrame(() => this.loop());
   }
@@ -220,6 +231,47 @@ export class GameEngine {
 
   private emit(e: EngineEvent): void {
     for (const fn of this.listeners) fn(e);
+  }
+
+  /**
+   * Wire pointer events on the canvas so taps near the judgment line trigger
+   * the corresponding lane (in addition to keyboard input). Pointer Events
+   * cover mouse, touch, and stylus uniformly. Multi-touch is supported via a
+   * per-pointer-id lane map so each finger releases the right lane.
+   */
+  private attachPointerInput(): void {
+    if (this.pointerAttached) return;
+    this.pointerAttached = true;
+    this.canvas.addEventListener("pointerdown", this.boundPointerDown);
+    this.canvas.addEventListener("pointerup", this.boundPointerEnd);
+    this.canvas.addEventListener("pointercancel", this.boundPointerEnd);
+    this.canvas.addEventListener("pointerleave", this.boundPointerEnd);
+  }
+
+  private detachPointerInput(): void {
+    if (!this.pointerAttached) return;
+    this.pointerAttached = false;
+    this.canvas.removeEventListener("pointerdown", this.boundPointerDown);
+    this.canvas.removeEventListener("pointerup", this.boundPointerEnd);
+    this.canvas.removeEventListener("pointercancel", this.boundPointerEnd);
+    this.canvas.removeEventListener("pointerleave", this.boundPointerEnd);
+    for (const lane of this.pointerLanes.values()) this.input.releaseLane(lane);
+    this.pointerLanes.clear();
+  }
+
+  private onPointerDown(e: PointerEvent): void {
+    const lane = this.renderer.laneFromPoint(e.clientX, e.clientY);
+    if (lane == null) return;
+    e.preventDefault();
+    this.pointerLanes.set(e.pointerId, lane);
+    this.input.pressLane(lane);
+  }
+
+  private onPointerEnd(e: PointerEvent): void {
+    const lane = this.pointerLanes.get(e.pointerId);
+    if (lane == null) return;
+    this.pointerLanes.delete(e.pointerId);
+    this.input.releaseLane(lane);
   }
 }
 

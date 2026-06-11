@@ -65,6 +65,24 @@ export class Renderer {
     this.opts.approachTimeSec = Math.max(0.3, Math.min(5.0, seconds));
   }
 
+  /**
+   * Map a viewport coordinate (e.g. from a pointer event) to a lane index, or
+   * null if the point isn't inside the touchable hit zone near the judgment
+   * line. Used for mobile tap input.
+   *
+   * The hot zone is the bottom ~45% of the canvas height within the play
+   * area's x range - generous enough for thumbs in landscape, but tight
+   * enough that taps on the upper HUD don't accidentally hit a lane.
+   */
+  laneFromPoint(clientX: number, clientY: number): 0 | 1 | 2 | 3 | null {
+    if (clientX < this.playX || clientX >= this.playX + this.playW) return null;
+    const minY = Math.min(this.hitY - this.laneW, this.h * 0.55);
+    if (clientY < minY) return null;
+    const lane = Math.floor((clientX - this.playX) / this.laneW);
+    if (lane < 0 || lane > 3) return null;
+    return lane as 0 | 1 | 2 | 3;
+  }
+
   private resize(): void {
     this.dpr = window.devicePixelRatio || 1;
     this.w = window.innerWidth;
