@@ -131,6 +131,9 @@ export class UIController {
           <div class="keys">
             <kbd>D</kbd><kbd>F</kbd><kbd>J</kbd><kbd>K</kbd>
           </div>
+          <div class="panel__hint panel__hint--center panel__hint--tight">
+            or tap the lanes on mobile
+          </div>
           <div class="panel__hint panel__hint--center">
             Hit the falling notes to play the melody. Miss them and they go silent.
           </div>
@@ -272,6 +275,9 @@ export class UIController {
   attachHUD(opts: {
     duration: number;
     onSeek: (t: number) => void;
+    /** Triggered by the on-screen pause button (mobile-friendly counterpart
+     *  to the Esc key shortcut). Caller decides the actual pause behavior. */
+    onPause: () => void;
     /** If true, the player can click/drag the timeline to seek. Otherwise
      *  the bar shows progress only and is non-interactive. */
     debugMode: boolean;
@@ -281,6 +287,13 @@ export class UIController {
     const hud = document.createElement("div");
     hud.className = "hud";
     hud.innerHTML = `
+      <button class="hud__pause" id="hud-pause" type="button" aria-label="Pause" title="Pause (Esc)">
+        <svg class="hud__pause-icon" viewBox="0 0 24 24" aria-hidden="true">
+          <rect x="6" y="4.5" width="4" height="15" rx="1.2"></rect>
+          <rect x="14" y="4.5" width="4" height="15" rx="1.2"></rect>
+        </svg>
+        <kbd class="hud__pause-kbd" aria-hidden="true">Esc</kbd>
+      </button>
       <div class="hud__top">
         <div class="hud__seek ${opts.debugMode ? "hud__seek--debug" : "hud__seek--locked"}" id="hud-seek">
           <span class="hud__seek-time" id="hud-seek-cur">0:00</span>
@@ -307,6 +320,9 @@ export class UIController {
     `;
     this.overlay.appendChild(hud);
     this.hud = hud;
+
+    hud.querySelector<HTMLButtonElement>("#hud-pause")!
+      .addEventListener("click", opts.onPause);
 
     if (opts.debugMode) {
       const bar = hud.querySelector<HTMLElement>("#hud-seek-bar")!;

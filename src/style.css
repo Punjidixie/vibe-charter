@@ -205,6 +205,16 @@ body.is-stage-blurred #stage {
   margin-top: 4px;
 }
 
+/* Tight variant for the "or tap the lanes" line directly under D/F/J/K -
+ * pulls it close to the keys without a full hint's worth of margin. */
+.panel__hint--tight {
+  margin-top: 2px;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 10px;
+  opacity: 0.85;
+}
+
 .source {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -649,6 +659,63 @@ kbd {
 }
 
 .hud__seek--debug { pointer-events: auto; }
+
+/* On-screen pause button (top-left corner). Lives inside .hud which is
+ * pointer-events: none, so the button explicitly opts back in via its
+ * default. Mobile players use this as the Esc-key equivalent. */
+.hud__pause {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  background: rgba(8, 10, 22, 0.42);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  color: var(--ink-soft);
+  cursor: pointer;
+  pointer-events: auto;
+  appearance: none;
+  font: inherit;
+  transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.hud__pause:hover {
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--ink);
+  border-color: var(--line-strong);
+}
+
+.hud__pause:active {
+  transform: translateY(1px);
+}
+
+.hud__pause-icon {
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
+  display: block;
+  flex-shrink: 0;
+}
+
+.hud__pause-kbd {
+  font-size: 10px;
+  padding: 2px 6px;
+  min-width: auto;
+  border-bottom-width: 2px;
+  letter-spacing: 0.05em;
+}
+
+/* On touch-only devices, the "Esc" chip is meaningless - hide it so the
+ * button collapses to just the pause icon. The icon alone is the universal
+ * pause affordance on mobile. */
+@media (hover: none) and (pointer: coarse) {
+  .hud__pause-kbd { display: none; }
+  .hud__pause { padding: 10px; }
+}
 .hud__seek--locked .hud__seek-bar { cursor: default; }
 .hud__seek--locked .hud__seek-bar:hover .hud__seek-knob {
   background: var(--ink);

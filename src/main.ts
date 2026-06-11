@@ -54,6 +54,7 @@ async function startGame(settings: Settings): Promise<void> {
     ui.attachHUD({
       duration: game.duration,
       onSeek: (t) => game?.seek(t),
+      onPause: pauseFromHud,
       debugMode: settings.debugMode,
     });
     const duration = game.duration;
@@ -118,6 +119,20 @@ function pauseGame(): void {
   if (!game || !game.isRunning) return;
   game.pause();
   showPauseMenu();
+}
+
+/** Called from the on-screen pause button. Mirrors the Esc-key behavior:
+ *  if a resume countdown is mid-flight, cancel it and reopen the pause
+ *  menu; otherwise pause if the game is running. The "already paused"
+ *  case can't happen here because the pause menu overlay covers the HUD. */
+function pauseFromHud(): void {
+  if (!game) return;
+  if (resumeTimer != null) {
+    cancelResumeCountdown();
+    showPauseMenu();
+    return;
+  }
+  if (game.isRunning) pauseGame();
 }
 
 function resumeGame(): void {
