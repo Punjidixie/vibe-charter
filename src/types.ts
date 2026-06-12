@@ -15,7 +15,8 @@ export interface SongMeta {
   subtitle: string;
   midiUrl: string;
   curatedUrl: string;
-  /** Optional recorded audio (OGG/MP3) that plays in parallel with MIDI. */
+  /** Optional recorded audio that plays in parallel with MIDI. MP3 for
+   *  universal browser support (Safari/iOS don't decode OGG Vorbis). */
   backingUrl?: string;
 }
 
@@ -43,7 +44,7 @@ export const SONGS: Record<SongId, SongMeta> = {
     subtitle: "Punjidixie feat. Mike",
     midiUrl: "/just-for-today.mid",
     curatedUrl: "/just-for-today.json",
-    backingUrl: "/just-for-today.ogg",
+    backingUrl: "/just-for-today.mp3",
   },
   "waltz-for-tomorrow": {
     id: "waltz-for-tomorrow",
@@ -52,7 +53,7 @@ export const SONGS: Record<SongId, SongMeta> = {
     subtitle: "Punjidixie",
     midiUrl: "/waltz-for-tomorrow.mid",
     curatedUrl: "/waltz-for-tomorrow.json",
-    backingUrl: "/waltz-for-tomorrow.ogg",
+    backingUrl: "/waltz-for-tomorrow.mp3",
   },
 };
 

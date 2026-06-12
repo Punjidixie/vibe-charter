@@ -45,11 +45,15 @@ export class GameEngine {
   private canvas: HTMLCanvasElement;
   private listeners: ((e: EngineEvent) => void)[] = [];
   private finishedFired = false;
-  /** Active pointer-id -> lane mapping, so multi-touch releases the right lane. */
+  /** Active mouse/pen pointer-id -> lane. Touches use the separate touchLanes map. */
   private pointerLanes = new Map<number, 0 | 1 | 2 | 3>();
+  /** Active touch-identifier -> lane. */
+  private touchLanes = new Map<number, 0 | 1 | 2 | 3>();
   private pointerAttached = false;
   private boundPointerDown = (e: PointerEvent) => this.onPointerDown(e);
   private boundPointerEnd = (e: PointerEvent) => this.onPointerEnd(e);
+  private boundTouchStart = (e: TouchEvent) => this.onTouchStart(e);
+  private boundTouchEnd = (e: TouchEvent) => this.onTouchEnd(e);
 
   constructor(
     canvas: HTMLCanvasElement,
@@ -234,10 +238,17 @@ export class GameEngine {
   }
 
   /**
-   * Wire pointer events on the canvas so taps near the judgment line trigger
-   * the corresponding lane (in addition to keyboard input). Pointer Events
-   * cover mouse, touch, and stylus uniformly. Multi-touch is supported via a
-   * per-pointer-id lane map so each finger releases the right lane.
+   * Wire two input paths on the canvas so taps near the judgment line trigger
+   * the corresponding lane:
+   *   - Pointer Events for mouse / pen / trackpad (uniform desktop input).
+   *   - Raw Touch Events for fingers. On iOS Safari, rapid multi-touch
+   *     Pointer Events get dropped during fast arpeggios, while Touch
+   *     Events deliver every contact reliably. We preventDefault on
+   *     touchstart so synthetic mouse events don't double-fire, and skip
+   *     pointerdown with pointerType==='touch' so the same finger isn't
+   *     processed by both paths.
+   * Multi-touch is supported via per-id lane maps so each finger releases
+   * the right lane.
    */
   private attachPointerInput(): void {
     if (this.pointerAttached) return;
@@ -246,6 +257,11 @@ export class GameEngine {
     this.canvas.addEventListener("pointerup", this.boundPointerEnd);
     this.canvas.addEventListener("pointercancel", this.boundPointerEnd);
     this.canvas.addEventListener("pointerleave", this.boundPointerEnd);
+    this.canvas.addEventListener("touchstart", this.boundTouchStart, {
+      passive: false,
+    });
+    this.canvas.addEventListener("touchend", this.boundTouchEnd);
+    this.canvas.addEventListener("touchcancel", this.boundTouchEnd);
   }
 
   private detachPointerInput(): void {
@@ -255,11 +271,19 @@ export class GameEngine {
     this.canvas.removeEventListener("pointerup", this.boundPointerEnd);
     this.canvas.removeEventListener("pointercancel", this.boundPointerEnd);
     this.canvas.removeEventListener("pointerleave", this.boundPointerEnd);
+    this.canvas.removeEventListener("touchstart", this.boundTouchStart);
+    this.canvas.removeEventListener("touchend", this.boundTouchEnd);
+    this.canvas.removeEventListener("touchcancel", this.boundTouchEnd);
     for (const lane of this.pointerLanes.values()) this.input.releaseLane(lane);
     this.pointerLanes.clear();
+    for (const lane of this.touchLanes.values()) this.input.releaseLane(lane);
+    this.touchLanes.clear();
   }
 
   private onPointerDown(e: PointerEvent): void {
+    // Fingers are handled by the raw touch path; skip here to prevent the
+    // same physical tap from firing twice.
+    if (e.pointerType === "touch") return;
     const lane = this.renderer.laneFromPoint(e.clientX, e.clientY);
     if (lane == null) return;
     e.preventDefault();
@@ -272,6 +296,29 @@ export class GameEngine {
     if (lane == null) return;
     this.pointerLanes.delete(e.pointerId);
     this.input.releaseLane(lane);
+  }
+
+  private onTouchStart(e: TouchEvent): void {
+    // Suppress synthetic mouse / click events from this touch sequence so
+    // the rest of the page doesn't react to taps on lanes.
+    e.preventDefault();
+    for (let i = 0; i < e.changedTouches.length; i++) {
+      const t = e.changedTouches[i];
+      const lane = this.renderer.laneFromPoint(t.clientX, t.clientY);
+      if (lane == null) continue;
+      this.touchLanes.set(t.identifier, lane);
+      this.input.pressLane(lane);
+    }
+  }
+
+  private onTouchEnd(e: TouchEvent): void {
+    for (let i = 0; i < e.changedTouches.length; i++) {
+      const t = e.changedTouches[i];
+      const lane = this.touchLanes.get(t.identifier);
+      if (lane == null) continue;
+      this.touchLanes.delete(t.identifier);
+      this.input.releaseLane(lane);
+    }
   }
 }
 

@@ -113,8 +113,10 @@ export class AudioEngine {
         return;
       }
       const buf = await res.arrayBuffer();
-      // Some browsers (e.g. Safari pre-17.5) can't decode OGG Vorbis. We
-      // swallow the error so the song still plays via MIDI only.
+      // We use MP3 (not OGG) for backing tracks because Safari/iOS don't
+      // decode OGG Vorbis via decodeAudioData. If decoding still fails for
+      // any reason, the catch below swallows it so the song still plays
+      // MIDI-only.
       this.backingBuffer = await this.ac.decodeAudioData(buf);
       console.log(
         `Backing track loaded: ${url} (${this.backingBuffer.duration.toFixed(1)}s)`,
