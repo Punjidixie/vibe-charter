@@ -14,11 +14,15 @@
 
 import { createRequire } from "node:module";
 import { readFileSync, writeFileSync } from "node:fs";
+import { applyPedalSustain } from "./pedal.mjs";
 const require = createRequire(import.meta.url);
 const { Midi } = require("@tonejs/midi");
 
 const inputPath = new URL("../public/nocturne.mid", import.meta.url);
 const midi = new Midi(readFileSync(inputPath));
+// Pedal application is deferred until *after* chart construction, so the
+// melody-detection heuristics see original (non-extended) durations.
+// See the applyPedalSustain call near the bottom of this file.
 
 const noteName = (m) => {
   const n = ["C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"];
@@ -37,6 +41,7 @@ midi.tracks.forEach((tr) => {
       midi: n.midi,
       velocity: n.velocity,
       track: 0,
+      midiRef: n, // populated by applyPedalSustain after the chart is built
     });
   }
 });
@@ -263,6 +268,10 @@ for (let round = 0; round < 4; round++) {
 const chartIds = new Set(chart.map((c) => c.note.id));
 const background = all.filter((n) => !chartIds.has(n.id));
 
+// Chart is now finalised; apply pedal so emitted durations reflect CC 64
+// sustain. Heuristics above already ran with original durations.
+applyPedalSustain(midi);
+
 const out = {
   format: "nocturne-rhythm/curated/v1",
   duration: midi.duration,
@@ -270,13 +279,13 @@ const out = {
     t: c.note.time,
     l: c.lane,
     m: c.note.midi,
-    d: c.note.duration,
+    d: c.note.midiRef.duration,
     v: c.note.velocity,
   })),
   background: background.map((n) => ({
     t: n.time,
     m: n.midi,
-    d: n.duration,
+    d: n.midiRef.duration,
     v: n.velocity,
   })),
 };

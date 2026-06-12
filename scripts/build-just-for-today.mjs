@@ -10,11 +10,15 @@
 
 import { createRequire } from "node:module";
 import { readFileSync, writeFileSync } from "node:fs";
+import { applyPedalSustain } from "./pedal.mjs";
 const require = createRequire(import.meta.url);
 const { Midi } = require("@tonejs/midi");
 
 const inputPath = new URL("../public/just-for-today.mid", import.meta.url);
 const midi = new Midi(readFileSync(inputPath));
+// Pedal pass runs after chart construction; see applyPedalSustain near
+// the bottom. This keeps duration-based heuristics (cluster scoring,
+// note prominence) using original score durations.
 
 const noteName = (m) => {
   const n = ["C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"];
@@ -31,6 +35,7 @@ const piano = pianoNotes.map((n) => ({
   duration: n.duration,
   midi: n.midi,
   velocity: n.velocity,
+  midiRef: n,
 }));
 const vocal = vocalNotes.map((n) => ({
   id: id++,
@@ -38,6 +43,7 @@ const vocal = vocalNotes.map((n) => ({
   duration: n.duration,
   midi: n.midi,
   velocity: n.velocity,
+  midiRef: n,
 }));
 vocal.sort((a, b) => a.time - b.time);
 piano.sort((a, b) => a.time - b.time || b.midi - a.midi);
@@ -298,6 +304,10 @@ const background = [
   ...vocal.filter((n) => !chartIds.has(n.id)),
 ].filter((n) => !chartIds.has(n.id));
 
+// Apply CC 64 sustain now that the chart is finalised, so emitted
+// durations reflect pedaling without affecting earlier heuristics.
+applyPedalSustain(midi);
+
 const out = {
   format: "just-for-today-rhythm/curated/v1",
   duration: midi.duration,
@@ -305,13 +315,13 @@ const out = {
     t: c.note.time,
     l: c.lane,
     m: c.note.midi,
-    d: c.note.duration,
+    d: c.note.midiRef.duration,
     v: c.note.velocity,
   })),
   background: background.map((n) => ({
     t: n.time,
     m: n.midi,
-    d: n.duration,
+    d: n.midiRef.duration,
     v: n.velocity,
   })),
 };

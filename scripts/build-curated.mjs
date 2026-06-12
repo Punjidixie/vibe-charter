@@ -15,12 +15,20 @@
 
 import { readFileSync, writeFileSync } from "node:fs";
 import { createRequire } from "node:module";
+import { applyPedalSustain } from "./pedal.mjs";
 const require = createRequire(import.meta.url);
 const { Midi } = require("@tonejs/midi");
 
 const buf = readFileSync(new URL("../public/arabesque.mid", import.meta.url));
 const midi = new Midi(buf);
 
+// `all` holds wrapper objects (copies of MIDI note fields) - we read
+// `duration` from these throughout the build for heuristics like
+// `isMelodyAnchored`, so we need a stable snapshot of the original
+// durations *before* applying pedal extension. The pedal pass runs
+// later, just before output, so the emitted JSON has pedal-extended
+// durations but the chart-building heuristics still see the score's
+// original durations.
 const all = midi.tracks.flatMap((t, ti) =>
   t.notes.map((n) => ({
     time: n.time,
@@ -28,6 +36,7 @@ const all = midi.tracks.flatMap((t, ti) =>
     midi: n.midi,
     velocity: n.velocity,
     track: ti,
+    midiRef: n, // for pedal pass to look up extended duration later
   })),
 );
 all.sort((a, b) => a.time - b.time || b.midi - a.midi);
@@ -1640,6 +1649,10 @@ for (let i = 0; i < chart.length; i++) {
   }
 }
 const beforeCleanup = chart.length;
+// Notes that the simul-cleanup discards must fall back into `background`
+// (otherwise they're silently dropped from the audio entirely - they were
+// marked `used` when picked, so we have to un-mark them here).
+for (const i of dropped) used.delete(chart[i].note);
 const cleanedChart = chart.filter((_, i) => !dropped.has(i));
 chart.length = 0;
 chart.push(...cleanedChart);
@@ -1648,6 +1661,15 @@ const droppedSimul = beforeCleanup - chart.length;
 // Build background: every MIDI note not picked.
 const background = all.filter((n) => !used.has(n));
 
+// Now that the chart is finalised, apply CC 64 sustain to extend note
+// durations for playback. Doing this last (rather than before chart
+// construction) keeps the chart-building heuristics - especially
+// `isMelodyAnchored`, which gates gap-fills on `duration >= 0.45` -
+// unaffected by pedal extension. The pedal modifies the underlying
+// MIDI note objects in place, and `c.note.midiRef.duration` below
+// reads back the new value.
+applyPedalSustain(midi);
+
 const out = {
   format: "arabesque-rhythm/curated/v1",
   duration: midi.duration,
@@ -1655,13 +1677,13 @@ const out = {
     t: c.note.time,
     l: c.lane,
     m: c.note.midi,
-    d: c.note.duration,
+    d: c.note.midiRef.duration,
     v: c.note.velocity,
   })),
   background: background.map((n) => ({
     t: n.time,
     m: n.midi,
-    d: n.duration,
+    d: n.midiRef.duration,
     v: n.velocity,
   })),
 };

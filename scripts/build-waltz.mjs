@@ -19,11 +19,15 @@
 
 import { createRequire } from "node:module";
 import { readFileSync, writeFileSync } from "node:fs";
+import { applyPedalSustain } from "./pedal.mjs";
 const require = createRequire(import.meta.url);
 const { Midi } = require("@tonejs/midi");
 
 const inputPath = new URL("../public/waltz-for-tomorrow.mid", import.meta.url);
 const midi = new Midi(readFileSync(inputPath));
+// Pedal pass runs after chart construction; see applyPedalSustain at
+// the bottom. Keeps prominence heuristics (`duration >= ANCHOR_DUR`)
+// using original durations.
 
 const noteName = (m) => {
   const n = ["C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"];
@@ -46,6 +50,7 @@ midi.tracks.forEach((tr, ti) => {
       velocity: n.velocity,
       track: ti,
       trackName: tr.name || "",
+      midiRef: n,
     });
   }
 });
@@ -276,6 +281,10 @@ for (let round = 0; round < 4; round++) {
 const chartIds = new Set(chart.map((c) => c.note.id));
 const background = all.filter((n) => !chartIds.has(n.id));
 
+// Pedal pass: extends durations on the Bechstein piano tracks so the
+// chart and background JSON entries reflect CC 64 sustain.
+applyPedalSustain(midi);
+
 const out = {
   format: "waltz-for-tomorrow-rhythm/curated/v1",
   duration: midi.duration,
@@ -283,13 +292,13 @@ const out = {
     t: c.note.time,
     l: c.lane,
     m: c.note.midi,
-    d: c.note.duration,
+    d: c.note.midiRef.duration,
     v: c.note.velocity,
   })),
   background: background.map((n) => ({
     t: n.time,
     m: n.midi,
-    d: n.duration,
+    d: n.midiRef.duration,
     v: n.velocity,
   })),
 };
