@@ -49,6 +49,7 @@ async function startGame(settings: Settings): Promise<void> {
     ]);
     audio.setMidiVolume(settings.midiVolume);
     audio.setBackingVolume(settings.backingVolume);
+    audio.setReverbAmount(song.reverbWet ?? 0.25);
 
     game = new GameEngine(canvas, chart, settings, audio);
     ui.attachHUD({

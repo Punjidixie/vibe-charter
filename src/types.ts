@@ -18,6 +18,10 @@ export interface SongMeta {
   /** Optional recorded audio that plays in parallel with MIDI. MP3 for
    *  universal browser support (Safari/iOS don't decode OGG Vorbis). */
   backingUrl?: string;
+  /** Reverb wet-mix on the MIDI bus, 0..1. Classical pieces want more
+   *  space; pop tracks with an OGG backing carry their own ambience so
+   *  they need less. Defaults to a moderate amount if omitted. */
+  reverbWet?: number;
 }
 
 export const SONGS: Record<SongId, SongMeta> = {
@@ -28,6 +32,7 @@ export const SONGS: Record<SongId, SongMeta> = {
     subtitle: "C. Debussy",
     midiUrl: "/arabesque.mid",
     curatedUrl: "/curated-chart.json",
+    reverbWet: 0.35,
   },
   nocturne: {
     id: "nocturne",
@@ -36,6 +41,7 @@ export const SONGS: Record<SongId, SongMeta> = {
     subtitle: "F. Chopin",
     midiUrl: "/nocturne.mid",
     curatedUrl: "/nocturne-chart.json",
+    reverbWet: 0.4,
   },
   "just-for-today": {
     id: "just-for-today",
@@ -45,6 +51,7 @@ export const SONGS: Record<SongId, SongMeta> = {
     midiUrl: "/just-for-today.mid",
     curatedUrl: "/just-for-today.json",
     backingUrl: "/just-for-today.mp3",
+    reverbWet: 0.15,
   },
   "waltz-for-tomorrow": {
     id: "waltz-for-tomorrow",
@@ -54,6 +61,7 @@ export const SONGS: Record<SongId, SongMeta> = {
     midiUrl: "/waltz-for-tomorrow.mid",
     curatedUrl: "/waltz-for-tomorrow.json",
     backingUrl: "/waltz-for-tomorrow.mp3",
+    reverbWet: 0.2,
   },
 };
 

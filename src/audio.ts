@@ -28,6 +28,16 @@ const MIDI_MAX_GAIN = 2.5;
  */
 const BACKING_MAX_GAIN = 0.7;
 
+/**
+ * Synthetic hall-reverb impulse-response length and decay. ~2.6 s of
+ * decaying noise is enough to make a sample-based piano sound like it's
+ * sitting in a real room - long enough to bloom under sustain pedal, short
+ * enough to not muddy fast passages. Stereo decorrelation between channels
+ * gives a natural width.
+ */
+const REVERB_SECONDS = 2.6;
+const REVERB_DECAY_POW = 2.6;
+
 export class AudioEngine {
   readonly ac: AudioContext;
   private piano: Player | null = null;
@@ -35,6 +45,16 @@ export class AudioEngine {
   private midiGain: GainNode;
   /** Gain node the OGG backing track routes through. */
   private backingGain: GainNode;
+  /**
+   * Convolution reverb on the MIDI bus, with a per-song wet-mix gain. Modeled
+   * as a parallel send (midiGain -> reverb -> reverbWet -> destination) so the
+   * dry signal is never coloured by the convolver - only the wet "room" is
+   * added on top. Soundfont piano samples decay naturally to silence in 3-5 s
+   * and have no sympathetic resonance, so without this the pedal extension
+   * has nothing to bloom into and the classical pieces sound dry.
+   */
+  private reverb: ConvolverNode;
+  private reverbWet: GainNode;
   private scheduled: { stop: (when?: number) => void }[] = [];
   /** AudioContext time when the song started (seconds). */
   private songStartAc = 0;
@@ -56,6 +76,45 @@ export class AudioEngine {
     this.backingGain = this.ac.createGain();
     this.backingGain.gain.value = 0.55 * BACKING_MAX_GAIN;
     this.backingGain.connect(this.ac.destination);
+    // Parallel reverb send from the MIDI bus.
+    this.reverb = this.ac.createConvolver();
+    this.reverb.buffer = this.makeReverbIR();
+    this.reverbWet = this.ac.createGain();
+    this.reverbWet.gain.value = 0; // off until a song sets its wet amount
+    this.midiGain.connect(this.reverb);
+    this.reverb.connect(this.reverbWet);
+    this.reverbWet.connect(this.ac.destination);
+  }
+
+  /**
+   * Set the reverb wet-mix amount, 0..1. Per-song: classical pieces get
+   * more space, pop tracks (which carry ambience in the OGG already) get
+   * less. Smoothly ramped so changes between songs don't click.
+   */
+  setReverbAmount(v: number): void {
+    const wet = Math.max(0, Math.min(1, v));
+    this.reverbWet.gain.setTargetAtTime(wet, this.ac.currentTime, 0.05);
+  }
+
+  /**
+   * Build a stereo decorrelated hall IR by generating exponentially-decaying
+   * white noise. The two channels use independent noise streams so the wet
+   * signal has a natural width without any explicit stereo trickery.
+   */
+  private makeReverbIR(): AudioBuffer {
+    const sr = this.ac.sampleRate;
+    const length = Math.max(1, Math.floor(sr * REVERB_SECONDS));
+    const ir = this.ac.createBuffer(2, length, sr);
+    for (let ch = 0; ch < 2; ch++) {
+      const data = ir.getChannelData(ch);
+      for (let i = 0; i < length; i++) {
+        const t = i / length;
+        // (1 - t)^p gives a smooth perceptually-linear-ish decay.
+        const env = Math.pow(1 - t, REVERB_DECAY_POW);
+        data[i] = (Math.random() * 2 - 1) * env;
+      }
+    }
+    return ir;
   }
 
   async load(): Promise<void> {
