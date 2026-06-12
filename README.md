@@ -12,7 +12,7 @@ A four-lane falling-note rhythm game in the browser, with charts curated by an A
 | --- | --- |
 | Arabesque No. 1 | C. Debussy |
 | Nocturne Op. 9 No. 2 | F. Chopin |
-| Just For Today | Punjidixie feat. Mike |
+| Just For Today | Punjidixie feat. Miku |
 | Waltz For Tomorrow | Punjidixie |
 
 ## Controls

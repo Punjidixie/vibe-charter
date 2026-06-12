@@ -39,9 +39,9 @@ export const SONGS: Record<SongId, SongMeta> = {
   },
   "just-for-today": {
     id: "just-for-today",
-    composer: "Punjidixie feat. Mike",
+    composer: "Punjidixie feat. Miku",
     title: "Just For Today",
-    subtitle: "Punjidixie feat. Mike",
+    subtitle: "Punjidixie feat. Miku",
     midiUrl: "/just-for-today.mid",
     curatedUrl: "/just-for-today.json",
     backingUrl: "/just-for-today.mp3",
